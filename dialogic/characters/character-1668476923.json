@@ -1,0 +1,81 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": true,
+	"id": "character-1668476923.json",
+	"mirror_portraits": false,
+	"name": "Sumu",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://project/characters/TEMP/lacie/lc_default2.png"
+		},
+		{
+			"name": "lc_angry",
+			"path": "res://project/characters/TEMP/lacie/lc_angry.png"
+		},
+		{
+			"name": "lc_blush",
+			"path": "res://project/characters/TEMP/lacie/lc_blush.png"
+		},
+		{
+			"name": "lc_blush2",
+			"path": "res://project/characters/TEMP/lacie/lc_blush2.png"
+		},
+		{
+			"name": "lc_default2",
+			"path": "res://project/characters/TEMP/lacie/lc_default2.png"
+		},
+		{
+			"name": "lc_frown",
+			"path": "res://project/characters/TEMP/lacie/lc_frown.png"
+		},
+		{
+			"name": "lc_happy",
+			"path": "res://project/characters/TEMP/lacie/lc_happy.png"
+		},
+		{
+			"name": "lc_neutral",
+			"path": "res://project/characters/TEMP/lacie/lc_neutral.png"
+		},
+		{
+			"name": "lc_neutral2",
+			"path": "res://project/characters/TEMP/lacie/lc_neutral2.png"
+		},
+		{
+			"name": "lc_sad",
+			"path": "res://project/characters/TEMP/lacie/lc_sad.png"
+		},
+		{
+			"name": "lc_sarcastic",
+			"path": "res://project/characters/TEMP/lacie/lc_sarcastic.png"
+		},
+		{
+			"name": "lc_shock",
+			"path": "res://project/characters/TEMP/lacie/lc_shock.png"
+		},
+		{
+			"name": "lc_smile",
+			"path": "res://project/characters/TEMP/lacie/lc_smile.png"
+		},
+		{
+			"name": "lc_smirk",
+			"path": "res://project/characters/TEMP/lacie/lc_smirk.png"
+		},
+		{
+			"name": "lc_tsun",
+			"path": "res://project/characters/TEMP/lacie/lc_tsun.png"
+		},
+		{
+			"name": "lc_worry",
+			"path": "res://project/characters/TEMP/lacie/lc_worry.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

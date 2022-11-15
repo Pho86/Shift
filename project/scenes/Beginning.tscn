@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=1]
+[ext_resource path="res://project/backgrounds/1dbd70f.jpeg" type="Texture" id=2]
+[ext_resource path="res://project/backgrounds/set1/background (14).png" type="Texture" id=3]
+[ext_resource path="res://Timer.gd" type="Script" id=4]
+
+[node name="Beginning" type="Node2D"]
+position = Vector2( 3, -2 )
+
+[node name="1Dbd70f" type="Sprite" parent="."]
+visible = false
+position = Vector2( 520, 325 )
+rotation = -0.00184601
+scale = Vector2( 1.24444, 1.16944 )
+texture = ExtResource( 2 )
+
+[node name="Background(14)" type="Sprite" parent="."]
+position = Vector2( 687, 390 )
+scale = Vector2( 0.720371, 0.720371 )
+texture = ExtResource( 3 )
+
+[node name="Dialog" parent="." instance=ExtResource( 1 )]
+margin_left = -3.0
+margin_right = -3.0
+timeline = "timeline-1668403433.json"
+
+[node name="Countdown" type="Control" parent="."]
+margin_left = 92.0
+margin_top = 31.0
+margin_right = 1226.0
+margin_bottom = 364.0
+script = ExtResource( 4 )
+minutes = 5
+
+[node name="min" type="RichTextLabel" parent="Countdown"]
+margin_left = 545.0
+margin_top = 158.0
+margin_right = 585.0
+margin_bottom = 198.0
+text = "00"
+
+[node name="sec" type="RichTextLabel" parent="Countdown"]
+margin_left = 563.0
+margin_top = 158.0
+margin_right = 603.0
+margin_bottom = 198.0
+text = "00"
+
+[node name="dsec" type="RichTextLabel" parent="Countdown"]
+margin_left = 581.0
+margin_top = 158.0
+margin_right = 621.0
+margin_bottom = 198.0
+
+[node name="Timer" type="Timer" parent="Countdown"]
+autostart = true
+
+[connection signal="timeout" from="Countdown/Timer" to="Countdown" method="_on_Timer_timeout"]

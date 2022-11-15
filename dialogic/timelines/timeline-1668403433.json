@@ -1,0 +1,89 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "lc_sad",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "... Where am I?"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://project/music/Dark Atmosphere to Synth.wav",
+			"volume": -10
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "..."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1668403433.json",
+		"name": "Intro"
+	}
+}

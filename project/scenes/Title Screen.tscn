@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Title.gd" type="Script" id=1]
+[ext_resource path="res://project/SHI.png" type="Texture" id=2]
+[ext_resource path="res://project/backgrounds/Tunnel 3.png" type="Texture" id=3]
+[ext_resource path="res://project/Button.png" type="Texture" id=4]
+[ext_resource path="res://project/music/Dark Atmosphere to Synth.wav" type="AudioStream" id=5]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
+
+[node name="Tunnel3" type="Sprite" parent="."]
+position = Vector2( 611, 384 )
+scale = Vector2( 0.663194, 0.663194 )
+texture = ExtResource( 3 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_right = 1021.0
+margin_bottom = 770.0
+
+[node name="Shi" type="Sprite" parent="CenterContainer"]
+position = Vector2( 502, 178 )
+scale = Vector2( 0.5132, 0.5132 )
+texture = ExtResource( 2 )
+
+[node name="GameStart" type="TextureButton" parent="CenterContainer"]
+margin_left = 366.0
+margin_top = 353.0
+margin_right = 655.0
+margin_bottom = 414.0
+texture_normal = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -10.183
+autoplay = true
+
+[connection signal="button_up" from="CenterContainer/GameStart" to="." method="_on_GameStart_button_up"]
