@@ -14,6 +14,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "GAME OVER"
+		},
+		{
+			"change_scene": "res://project/scenes/Level1.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {
