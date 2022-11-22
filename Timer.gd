@@ -11,8 +11,7 @@ func _physics_process(delta):
 	if minutes > 0 and seconds <= 0: 
 		minutes -= 1
 		seconds = 60
-	
-	
+		
 	if seconds >= 10:
 		$sec.set_text(str(seconds))
 	else:
@@ -25,15 +24,12 @@ func _physics_process(delta):
 		$min.set_text(str(minutes))
 	else:
 		$min.set_text("0"+str(minutes))
-	
+
 
 
 func _on_Timer_timeout():
 	dsec -= 10
-	get_tree().change_scene("res://project/scenes/GameOver.tscn")
-
+	if dsec < 10 and minutes <= 0 and seconds <= 0:
+		get_tree().change_scene("res://project/scenes/GameOver.tscn")
 func on_timeout():
-	get_tree().change_scene("res://project/scenes/GameOver.tscn")
-	
-
-
+	pass
