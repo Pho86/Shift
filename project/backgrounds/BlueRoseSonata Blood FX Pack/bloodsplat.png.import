@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bloodslash_heavy.png-b2a9aaf16d4e4db017fd855c4fc0d1a3.stex"
+path="res://.import/bloodsplat.png-3facd45b771db501614e158031468319.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/BlueRoseSonata Blood FX Pack/bloodslash_heavy.png"
-dest_files=[ "res://.import/bloodslash_heavy.png-b2a9aaf16d4e4db017fd855c4fc0d1a3.stex" ]
+source_file="res://project/backgrounds/BlueRoseSonata Blood FX Pack/bloodsplat.png"
+dest_files=[ "res://.import/bloodsplat.png-3facd45b771db501614e158031468319.stex" ]
 
 [params]
 
