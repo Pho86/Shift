@@ -80,7 +80,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Shi"
+config/name="Shift"
+config/description="Shift through dimensions and the plane of existence with Sumu and her ghost Shi. Visual novel with platformer aspects and made in Godot."
 run/main_scene="res://project/scenes/Title Screen.tscn"
 config/icon="res://project/SHI.png"
 

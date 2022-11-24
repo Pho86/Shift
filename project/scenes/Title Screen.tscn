@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Title.gd" type="Script" id=1]
-[ext_resource path="res://project/SHI.png" type="Texture" id=2]
+[ext_resource path="res://project/Scripts/UI_Screens/Title.gd" type="Script" id=1]
+[ext_resource path="res://project/Shift.png" type="Texture" id=2]
 [ext_resource path="res://project/backgrounds/Tunnel 3.png" type="Texture" id=3]
 [ext_resource path="res://project/Button.png" type="Texture" id=4]
 [ext_resource path="res://project/music/Dark Atmosphere to Synth.wav" type="AudioStream" id=5]
@@ -18,17 +18,14 @@ scale = Vector2( 0.663194, 0.663194 )
 texture = ExtResource( 3 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-margin_top = 161.0
-margin_right = 1021.0
-margin_bottom = 928.0
+margin_left = 10.0
+margin_top = 128.0
+margin_right = 1031.0
+margin_bottom = 895.0
 
-[node name="Shi" type="Sprite" parent="CenterContainer"]
-position = Vector2( 502, 178 )
-scale = Vector2( 0.5132, 0.5132 )
+[node name="Shift" type="Sprite" parent="CenterContainer"]
+position = Vector2( 515, 155 )
+scale = Vector2( 0.415137, 0.415137 )
 texture = ExtResource( 2 )
 
 [node name="GameStart" type="TextureButton" parent="CenterContainer"]
