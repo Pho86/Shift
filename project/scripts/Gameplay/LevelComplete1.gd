@@ -12,7 +12,6 @@ func _on_Area2D_body_exited(_body: PhysicsBody2D):
 
 func _process(_delta):
 	if entered == true:
-		if Input.is_action_pressed("ui_accept"):
-			get_tree().change_scene("res://project/scenes/AfterLevel.tscn")
+		get_tree().change_scene("res://project/scenes/AfterLevel.tscn")
 	else:
 		pass
