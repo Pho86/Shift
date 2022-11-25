@@ -73,4 +73,3 @@ func _physics_process(_delta):
 #			$AnimatedSprite.play("Jump")
 	
 	motion = move_and_slide(motion, UP)
-	

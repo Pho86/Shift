@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://project/Scripts/UI_Screens/Title.gd" type="Script" id=1]
+[ext_resource path="res://project/scripts/UI_Screens/Title.gd" type="Script" id=1]
 [ext_resource path="res://project/Shift.png" type="Texture" id=2]
 [ext_resource path="res://project/backgrounds/Tunnel 3.png" type="Texture" id=3]
 [ext_resource path="res://project/Button.png" type="Texture" id=4]

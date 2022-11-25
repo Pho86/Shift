@@ -2,16 +2,16 @@
 
 [ext_resource path="res://project/sprites/tiles/testtiles.tres" type="TileSet" id=1]
 [ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=2]
-[ext_resource path="res://project/Scripts/Gameplay/Player.gd" type="Script" id=3]
+[ext_resource path="res://project/scripts/Gameplay/Player.gd" type="Script" id=3]
 [ext_resource path="res://project/sprites/Sumu/sumu_walk.png" type="Texture" id=4]
 [ext_resource path="res://project/sprites/Sumu/sumu_run.png" type="Texture" id=5]
 [ext_resource path="res://project/sprites/Sumu/sumu_jump.png" type="Texture" id=6]
 [ext_resource path="res://project/backgrounds/set1/background (56).png" type="Texture" id=7]
 [ext_resource path="res://project/music/Empty Streets.wav" type="AudioStream" id=8]
-[ext_resource path="res://project/Scripts/Gameplay/LevelComplete1.gd" type="Script" id=9]
-[ext_resource path="res://project/Scripts/Gameplay/Timer.gd" type="Script" id=10]
-[ext_resource path="res://project/Scripts/Gameplay/PlayerTimer.gd" type="Script" id=11]
-[ext_resource path="res://project/Scripts/Gameplay/FallOffLevel1.gd" type="Script" id=12]
+[ext_resource path="res://project/scripts/Gameplay/LevelComplete1.gd" type="Script" id=9]
+[ext_resource path="res://project/scripts/Gameplay/Timer.gd" type="Script" id=10]
+[ext_resource path="res://project/scripts/Gameplay/PlayerTimer.gd" type="Script" id=11]
+[ext_resource path="res://project/scripts/Gameplay/FallOffLevel1.gd" type="Script" id=12]
 [ext_resource path="res://project/sprites/Sumu/sumu_dead.png" type="Texture" id=13]
 
 [sub_resource type="AtlasTexture" id=93]
@@ -641,6 +641,10 @@ scale = Vector2( 0.762037, 0.762037 )
 texture = ExtResource( 7 )
 centered = false
 
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
+motion_mirroring = Vector2( 1440, 0 )
+
 [node name="Countdown" type="Control" parent="ParallaxBackground"]
 margin_left = 8.0
 margin_top = 1.0
@@ -679,8 +683,8 @@ script = ExtResource( 3 )
 position = Vector2( 86, 618 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 19 )
-animation = "Dead"
-frame = 28
+animation = "Idle"
+frame = 9
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -691,20 +695,21 @@ current = true
 zoom = Vector2( 0.6, 0.6 )
 smoothing_enabled = true
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Player"]
+[node name="HeadCollision" type="CollisionShape2D" parent="Player"]
 position = Vector2( 92, 608 )
 shape = SubResource( 91 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+[node name="BodyCollision" type="CollisionShape2D" parent="Player"]
 position = Vector2( 92, 639 )
 shape = SubResource( 1 )
 
 [node name="Control" type="Control" parent="Player"]
 margin_right = 40.0
 margin_bottom = 40.0
+script = ExtResource( 11 )
+seconds = 10
 
 [node name="Timer" type="Timer" parent="Player/Control"]
-script = ExtResource( 11 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
@@ -712,7 +717,7 @@ cell_size = Vector2( 18, 22 )
 format = 1
 tile_data = PoolIntArray( 1966082, 0, 0, 1966083, 0, 0, 1966084, 0, 0, 1966085, 0, 0, 1966086, 0, 0, 1966087, 0, 0, 1966088, 0, 0, 1966089, 0, 0, 1966090, 0, 0, 1966091, 0, 0, 1966092, 0, 0, 1966093, 0, 0, 1966094, 0, 0, 1966095, 0, 0, 1966096, 0, 0, 1966097, 0, 0, 1966098, 0, 0, 1966099, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966102, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966105, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0 )
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="EndArea" type="Area2D" parent="."]
 position = Vector2( 981, 649 )
 scale = Vector2( 0.1, 0.1 )
 z_as_relative = false
@@ -720,7 +725,7 @@ input_pickable = false
 monitorable = false
 script = ExtResource( 9 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
 position = Vector2( -260, -730 )
 scale = Vector2( 1.31227, 1.31227 )
 shape = SubResource( 90 )
@@ -732,14 +737,29 @@ stream = ExtResource( 8 )
 volume_db = -10.0
 autoplay = true
 
-[node name="Area2D2" type="Area2D" parent="."]
+[node name="DeadArea" type="Area2D" parent="."]
 script = ExtResource( 12 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DeadArea"]
 position = Vector2( 841, 852 )
 shape = SubResource( 92 )
 
+[node name="Particles2D" type="Particles2D" parent="."]
+visible = false
+position = Vector2( 114, 599 )
+amount = 30
+lifetime = 2.0
+speed_scale = 2.0
+explosiveness = 1.0
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+position = Vector2( 114, 599 )
+amount = 30
+lifetime = 2.0
+speed_scale = 2.0
+explosiveness = 1.0
+
 [connection signal="timeout" from="ParallaxBackground/Countdown/Timer" to="ParallaxBackground/Countdown" method="_on_Timer_timeout"]
-[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
-[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_Area2D_body_exited"]
-[connection signal="body_entered" from="Area2D2" to="Area2D2" method="_on_Area2D2_body_entered"]
+[connection signal="body_entered" from="EndArea" to="EndArea" method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="EndArea" to="EndArea" method="_on_Area2D_body_exited"]
+[connection signal="body_entered" from="DeadArea" to="DeadArea" method="_on_Area2D2_body_entered"]
