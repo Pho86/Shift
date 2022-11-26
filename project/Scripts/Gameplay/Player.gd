@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+const ShiftGhost = preload("res://project/scripts/Gameplay/ShiftGhost.tscn")
+
 const UP = Vector2(0,-1)
 const GRAVITY = 20
 const MAXFALLSPEED = 200
@@ -12,6 +14,9 @@ var motion = Vector2()
 var facingRight = true
 var direction = Vector2.ZERO
 
+func create_ghost():
+	var ghost: AnimatedSprite = ShiftGhost.instance()
+	get_parent().get_parent().add_child(ghost)
 
 func _ready():
 	direction = Vector2(1,0)
@@ -59,6 +64,7 @@ func _physics_process(_delta):
 		motion.x = clamp(motion.x, 1000, 1000)
 		motion.x = direction.x * 5000
 		canDash = false
+		create_ghost()
 		
 		
 	if is_on_floor():

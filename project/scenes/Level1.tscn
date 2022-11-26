@@ -711,6 +711,8 @@ seconds = 10
 
 [node name="Timer" type="Timer" parent="Player/Control"]
 
+[node name="Tween" type="Tween" parent="Player"]
+
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 18, 22 )
@@ -753,6 +755,7 @@ speed_scale = 2.0
 explosiveness = 1.0
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+visible = false
 position = Vector2( 114, 599 )
 amount = 30
 lifetime = 2.0
