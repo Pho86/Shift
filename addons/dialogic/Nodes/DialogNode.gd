@@ -625,8 +625,8 @@ func _load_event():
 			var index_in_questions = next_event['question_idx']
 			var question = questions[index_in_questions]
 			var index_in_events = dialog_script['events'].rfind(question, dialog_index)
-			var end_index = question['end_idx']
-			is_last_text = end_index + 1 >= dialog_script['events'].size()
+#			var end_index = question['end_idx']
+#			is_last_text = end_index + 1 >= dialog_script['events'].size()
 	
 	_emit_timeline_signals()
 	_hide_definition_popup()

@@ -14,13 +14,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "lc_worry",
-			"text": "I need to run away from them."
+			"text": "I need to run away from them.[nw=3]"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Press WASD to move and SPACE in the air to [color=#ffffff]Shift[/color]."
+			"text": "[color=#FFFFFF]Press WASD to move and SPACE in the air to Shift[/color].[nw=4]"
 		},
 		{
 			"event_id": "dialogic_022",
