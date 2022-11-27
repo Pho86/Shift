@@ -152,10 +152,10 @@ animations = [ {
 } ]
 
 [node name="Dashghost" type="AnimatedSprite"]
-position = Vector2( 116, 103 )
+position = Vector2( 121, 132 )
 scale = Vector2( 0.578947, 0.578947 )
 frames = SubResource( 29 )
-frame = 24
+frame = 12
 speed_scale = 0.8
 playing = true
 script = ExtResource( 1 )

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/SHI.png-9c3976b81c326009266db62b922a7347.stex"
+path="res://.import/dash_particle.png-dc333f08fb2e003e0ff7688da6c9aab0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/SHI.png"
-dest_files=[ "res://.import/SHI.png-9c3976b81c326009266db62b922a7347.stex" ]
+source_file="res://project/sprites/Sumu/dash_particle.png"
+dest_files=[ "res://.import/dash_particle.png-dc333f08fb2e003e0ff7688da6c9aab0.stex" ]
 
 [params]
 

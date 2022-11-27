@@ -1,4 +1,4 @@
-[gd_scene load_steps=134 format=2]
+[gd_scene load_steps=136 format=2]
 
 [ext_resource path="res://project/sprites/tiles/testtiles.tres" type="TileSet" id=1]
 [ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=2]
@@ -13,6 +13,8 @@
 [ext_resource path="res://project/scripts/Gameplay/PlayerTimer.gd" type="Script" id=11]
 [ext_resource path="res://project/scripts/Gameplay/FallOffLevel1.gd" type="Script" id=12]
 [ext_resource path="res://project/sprites/Sumu/sumu_dead.png" type="Texture" id=13]
+[ext_resource path="res://project/sprites/Sumu/dash_particle.png" type="Texture" id=14]
+[ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=15]
 
 [sub_resource type="AtlasTexture" id=93]
 flags = 4
@@ -635,7 +637,7 @@ extents = Vector2( 1295.5, 18.5 )
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="Background(56)" type="Sprite" parent="ParallaxBackground"]
-position = Vector2( -607, 6 )
+position = Vector2( -437, -32 )
 scale = Vector2( 0.762037, 0.762037 )
 texture = ExtResource( 7 )
 centered = false
@@ -683,7 +685,7 @@ position = Vector2( 86, 618 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 19 )
 animation = "Idle"
-frame = 2
+frame = 7
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -739,27 +741,26 @@ volume_db = -10.0
 autoplay = true
 
 [node name="DeadArea" type="Area2D" parent="."]
+position = Vector2( 72, 227 )
 script = ExtResource( 12 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DeadArea"]
 position = Vector2( 841, 852 )
 shape = SubResource( 92 )
 
-[node name="Particles2D" type="Particles2D" parent="."]
-visible = false
-position = Vector2( 114, 599 )
-amount = 30
-lifetime = 2.0
-speed_scale = 2.0
-explosiveness = 1.0
-
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-visible = false
-position = Vector2( 114, 599 )
-amount = 30
-lifetime = 2.0
-speed_scale = 2.0
-explosiveness = 1.0
+position = Vector2( -26, 598 )
+amount = 80
+texture = ExtResource( 14 )
+emission_shape = 1
+emission_sphere_radius = 7.25
+direction = Vector2( 5, 0 )
+spread = 180.0
+
+[node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
+
+[node name="Dialog" parent="." instance=ExtResource( 15 )]
+timeline = "timeline-1669506514.json"
 
 [connection signal="timeout" from="ParallaxBackground/Countdown/Timer" to="ParallaxBackground/Countdown" method="_on_Timer_timeout"]
 [connection signal="body_entered" from="EndArea" to="EndArea" method="_on_Area2D_body_entered"]

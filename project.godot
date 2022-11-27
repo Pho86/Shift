@@ -89,6 +89,8 @@ config/icon="res://project/Shift.png"
 
 window/size/height=768
 window/vsync/use_vsync=false
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [editor_plugins]
 
