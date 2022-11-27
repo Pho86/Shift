@@ -1,0 +1,35 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1669506712.cfg"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": true
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "I need to run away from them."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Press WASD to move and SPACE to [color=#ffffff]Shift[/color] in the air."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1.5
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669506514.json",
+		"name": "Level1"
+	}
+}
