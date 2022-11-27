@@ -20,7 +20,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[color=#FFFFFF]Press WASD to move and SPACE in the air to Shift[/color].[nw=4]"
+			"text": "[color=#FFFFFF]Press WASD to move and SPACE in the air to Shift[/color].[nw=5]"
 		},
 		{
 			"event_id": "dialogic_022",
