@@ -13,6 +13,6 @@ timeline = "timeline-1668476749.json"
 stream = ExtResource( 3 )
 
 [node name="Bloodsplat" type="Sprite" parent="."]
-position = Vector2( 685.222, 392 )
-scale = Vector2( 1.07222, 1.07222 )
+position = Vector2( 705, 372 )
+scale = Vector2( 1.1, 1.1 )
 texture = ExtResource( 2 )

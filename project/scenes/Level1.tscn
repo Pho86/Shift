@@ -1,6 +1,6 @@
 [gd_scene load_steps=136 format=2]
 
-[ext_resource path="res://project/sprites/tiles/testtiles.tres" type="TileSet" id=1]
+[ext_resource path="res://project/sprites/tiles/Tiles.tres" type="TileSet" id=1]
 [ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=2]
 [ext_resource path="res://project/scripts/Gameplay/Player.gd" type="Script" id=3]
 [ext_resource path="res://project/sprites/Sumu/sumu_walk.png" type="Texture" id=4]
@@ -685,7 +685,7 @@ position = Vector2( 86, 618 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 19 )
 animation = "Idle"
-frame = 7
+frame = 5
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -697,11 +697,11 @@ zoom = Vector2( 0.6, 0.6 )
 smoothing_enabled = true
 
 [node name="HeadCollision" type="CollisionShape2D" parent="Player"]
-position = Vector2( 95, 609 )
+position = Vector2( 95, 610 )
 shape = SubResource( 91 )
 
 [node name="BodyCollision" type="CollisionShape2D" parent="Player"]
-position = Vector2( 93, 641 )
+position = Vector2( 94, 639 )
 shape = SubResource( 1 )
 
 [node name="Control" type="Control" parent="Player"]
@@ -711,14 +711,14 @@ script = ExtResource( 11 )
 seconds = 10
 
 [node name="Timer" type="Timer" parent="Player/Control"]
-
-[node name="Tween" type="Tween" parent="Player"]
+autostart = true
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
-cell_size = Vector2( 18, 22 )
+cell_size = Vector2( 16, 16 )
+cell_quadrant_size = 15
 format = 1
-tile_data = PoolIntArray( 1966082, 0, 0, 1966083, 0, 0, 1966084, 0, 0, 1966085, 0, 0, 1966086, 0, 0, 1966087, 0, 0, 1966088, 0, 0, 1966089, 0, 0, 1966090, 0, 0, 1966091, 0, 0, 1966092, 0, 0, 1966093, 0, 0, 1966094, 0, 0, 1966095, 0, 0, 1966096, 0, 0, 1966097, 0, 0, 1966098, 0, 0, 1966099, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966102, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966105, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0 )
+tile_data = PoolIntArray( 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097231, 19, 0, 2162766, 3, 0, 2228299, 3, 0, 2293810, 3, 0, 2293813, 3, 0, 2293823, 3, 0, 2293832, 3, 0, 2359343, 3, 0, 2359362, 3, 0, 2359365, 3, 0, 2424876, 3, 0, 2490409, 3, 0, 2555942, 3, 0, 2621475, 3, 0, 2687008, 3, 0, 2818047, 3, 0, 2752514, 3, 0, 2752517, 3, 0, 2752520, 3, 0, 2752523, 3, 0, 2752526, 3, 0, 2752529, 3, 0, 2752532, 3, 0, 2752535, 3, 0, 2752538, 3, 0, 2752541, 3, 0 )
 
 [node name="EndArea" type="Area2D" parent="."]
 position = Vector2( 981, 649 )
@@ -729,7 +729,7 @@ monitorable = false
 script = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
-position = Vector2( -30, -760 )
+position = Vector2( 3170, -1470 )
 scale = Vector2( 1.31227, 1.31227 )
 shape = SubResource( 90 )
 
@@ -745,7 +745,7 @@ position = Vector2( 72, 227 )
 script = ExtResource( 12 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 841, 852 )
+position = Vector2( 841, 650 )
 shape = SubResource( 92 )
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
