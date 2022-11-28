@@ -46,7 +46,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "With each decade passing, feeling as if our time together would last forever."
+			"text": "With each year passing, feeling as if our time together would last forever."
 		},
 		{
 			"emit_signal": "transition_out",
@@ -67,7 +67,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "... But that was until [b]he[/b] disappeared and I was alone."
+			"text": "... But that was until [b]he[/b] disappeared and I was all alone."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "All I wanted was another second with them."
 		},
 		{
 			"character": "character-1669595483.json",
@@ -79,13 +85,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "This was the 4th decade since he had disappeared."
+			"text": "This was the 4th year since he had disappeared."
 		},
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I've waited 4 decades for him..."
+			"text": "I've waited 4 years for him..."
 		},
 		{
 			"character": "character-1669595483.json",
@@ -119,7 +125,7 @@
 			"text": "It was obvious to me what I wanted."
 		},
 		{
-			"character": "character-1668476923.json",
+			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "[i]I... just wanted to see them again.[/i]"

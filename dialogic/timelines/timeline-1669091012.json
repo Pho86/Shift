@@ -10,6 +10,11 @@
 			"volume": -10
 		},
 		{
+			"background": "res://project/backgrounds/set1/background (18).png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1
+		},
+		{
 			"animation": "1-fade_in.gd",
 			"animation_length": 1,
 			"animation_wait": true,

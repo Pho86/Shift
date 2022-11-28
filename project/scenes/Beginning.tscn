@@ -13,7 +13,7 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 693, -0.25, 0, 0.25, 0, 645, -0.25, 0, 0.25, 0, 693, -0.25, 0, 0.25, 0 ),
+"points": PoolRealArray( 690, -0.25, 0, 0.25, 0, 645, -0.25, 0, 0.25, 0, 687, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0, 15, 30 )
 }
 tracks/1/type = "bezier"
@@ -58,6 +58,11 @@ margin_left = -3.0
 margin_right = -3.0
 timeline = "timeline-1668403433.json"
 
+[node name="Background(15)" type="Sprite" parent="."]
+position = Vector2( 693, 385 )
+scale = Vector2( 0.720371, 0.720371 )
+texture = ExtResource( 2 )
+
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "Pan"
 anims/Pan = SubResource( 1 )
@@ -69,8 +74,3 @@ margin_top = -45.0
 margin_right = 1248.0
 margin_bottom = 801.0
 color = Color( 0, 0, 0, 1 )
-
-[node name="Background(15)" type="Sprite" parent="."]
-position = Vector2( 693, 385 )
-scale = Vector2( 0.720371, 0.720371 )
-texture = ExtResource( 2 )
