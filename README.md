@@ -11,4 +11,4 @@ WIP Visual Novel/Game
 * add death animation
 * add more background assets
 * add more choices
-* 
+* and a lot more...

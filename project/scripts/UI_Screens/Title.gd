@@ -12,4 +12,7 @@ func _ready():
 
 
 func _on_GameStart_button_up():
-	get_tree( ).change_scene("res://project/scenes/Beginning.tscn")
+	$Transition.transition()
+	yield(get_tree().create_timer(1.5), "timeout")
+	get_tree().change_scene("res://project/scenes/Intro.tscn")
+

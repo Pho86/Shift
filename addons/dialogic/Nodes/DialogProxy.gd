@@ -51,6 +51,8 @@ signal timeline_end(timeline_name)
 signal dialogic_signal(value)
 signal letter_displayed(lastLetter)
 
+func _transition_out():
+	$Transition.transition()
 
 func _on_Timer_timeout():
 	pass # Replace with function body.

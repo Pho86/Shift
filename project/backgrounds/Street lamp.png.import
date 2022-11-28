@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1dbd70f.jpeg-de17197b5c162b0e62683f29dcda2cbc.stex"
+path="res://.import/Street lamp.png-080f42222a4be623e356b431a6b5fc69.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project/backgrounds/1dbd70f.jpeg"
-dest_files=[ "res://.import/1dbd70f.jpeg-de17197b5c162b0e62683f29dcda2cbc.stex" ]
+source_file="res://project/backgrounds/Street lamp.png"
+dest_files=[ "res://.import/Street lamp.png-080f42222a4be623e356b431a6b5fc69.stex" ]
 
 [params]
 

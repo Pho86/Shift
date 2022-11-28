@@ -5,9 +5,9 @@ const DashGhost = preload("res://project/scripts/Gameplay/DashGhost.tscn")
 const UP = Vector2(0,-1)
 const GRAVITY = 20
 const MAXFALLSPEED = 200
-const MAXSPEED = 250
+const MAXSPEED = 200
 const JUMPFORCE = 400 
-const ACCELERATION = 5
+const ACCELERATION = 3
 
 var canDash = true
 var motion = Vector2()
@@ -80,3 +80,4 @@ func _physics_process(_delta):
 #			$AnimatedSprite.play("Jump")
 	
 	motion = move_and_slide(motion, UP)
+	
