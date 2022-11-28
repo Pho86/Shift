@@ -1,4 +1,4 @@
-[gd_scene load_steps=136 format=2]
+[gd_scene load_steps=137 format=2]
 
 [ext_resource path="res://project/sprites/tiles/Tiles.tres" type="TileSet" id=1]
 [ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=2]
@@ -15,6 +15,8 @@
 [ext_resource path="res://project/sprites/Sumu/sumu_dead.png" type="Texture" id=13]
 [ext_resource path="res://project/sprites/Sumu/dash_particle.png" type="Texture" id=14]
 [ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=15]
+
+[sub_resource type="Theme" id=122]
 
 [sub_resource type="AtlasTexture" id=93]
 flags = 4
@@ -630,7 +632,7 @@ radius = 381.02
 height = 853.482
 
 [sub_resource type="RectangleShape2D" id=92]
-extents = Vector2( 1295.5, 18.5 )
+extents = Vector2( 1515.63, 18.5 )
 
 [node name="World" type="Node2D"]
 
@@ -652,13 +654,14 @@ margin_top = 1.0
 margin_right = 1142.0
 margin_bottom = 334.0
 script = ExtResource( 10 )
-minutes = 100
+minutes = 2
 
 [node name="min" type="RichTextLabel" parent="ParallaxBackground/Countdown"]
 margin_left = 5.0
 margin_top = 21.0
 margin_right = 45.0
 margin_bottom = 61.0
+theme = SubResource( 122 )
 text = "00"
 
 [node name="sec" type="RichTextLabel" parent="ParallaxBackground/Countdown"]
@@ -681,36 +684,36 @@ autostart = true
 script = ExtResource( 3 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
-position = Vector2( 86, 618 )
+position = Vector2( -527.723, 579.581 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 19 )
 animation = "Idle"
-frame = 10
+frame = 11
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2( 85, 607 )
+position = Vector2( -528.723, 568.581 )
 current = true
 zoom = Vector2( 0.6, 0.6 )
 smoothing_enabled = true
 
 [node name="HeadCollision" type="CollisionShape2D" parent="Player"]
-position = Vector2( 95, 610 )
+position = Vector2( -518.723, 571.581 )
 shape = SubResource( 91 )
 
 [node name="BodyCollision" type="CollisionShape2D" parent="Player"]
-position = Vector2( 94, 639 )
+position = Vector2( -519.723, 600.581 )
 shape = SubResource( 1 )
 
-[node name="Control" type="Control" parent="Player"]
+[node name="DeathTimer" type="Control" parent="Player"]
 margin_right = 40.0
 margin_bottom = 40.0
 script = ExtResource( 11 )
 seconds = 10
 
-[node name="Timer" type="Timer" parent="Player/Control"]
+[node name="Timer" type="Timer" parent="Player/DeathTimer"]
 autostart = true
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -718,7 +721,7 @@ tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
 cell_quadrant_size = 15
 format = 1
-tile_data = PoolIntArray( 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097257, 19, 0, 2162750, 3, 0, 2162762, 3, 0, 2162765, 3, 0, 2162792, 3, 0, 2228283, 3, 0, 2228304, 3, 0, 2228325, 3, 0, 2293810, 3, 0, 2293813, 3, 0, 2293816, 3, 0, 2293843, 3, 0, 2293846, 3, 0, 2293849, 3, 0, 2293852, 3, 0, 2293858, 3, 0, 2359343, 3, 0, 2424876, 3, 0, 2490409, 3, 0, 2555942, 3, 0, 2621475, 3, 0, 2687008, 3, 0, 2818047, 3, 0, 2752514, 3, 0, 2752517, 3, 0, 2752520, 3, 0, 2752523, 3, 0, 2752526, 3, 0, 2752529, 3, 0, 2752532, 3, 0, 2752535, 3, 0, 2752538, 3, 0, 2752541, 3, 0 )
+tile_data = PoolIntArray( 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097258, 19, 0, 2162750, 3, 0, 2162762, 3, 0, 2162765, 3, 0, 2162793, 3, 0, 2162796, 3, 0, 2162799, 3, 0, 2162802, 3, 0, 2162805, 3, 0, 2162808, 3, 0, 2162811, 3, 0, 2162814, 3, 0, 2162817, 3, 0, 2228283, 3, 0, 2228304, 3, 0, 2228326, 3, 0, 2293810, 3, 0, 2293813, 3, 0, 2293816, 3, 0, 2293843, 3, 0, 2293846, 3, 0, 2293849, 3, 0, 2293852, 3, 0, 2293859, 3, 0, 2359343, 3, 0, 2424876, 3, 0, 2490409, 3, 0, 2621406, 3, 0, 2555942, 3, 0, 2686945, 3, 0, 2621475, 3, 0, 2752484, 3, 0, 2687008, 3, 0, 2818023, 3, 0, 2818026, 3, 0, 2818029, 3, 0, 2818032, 3, 0, 2818035, 3, 0, 2818038, 3, 0, 2818041, 3, 0, 2818044, 3, 0, 2818047, 3, 0, 2752514, 3, 0, 2752517, 3, 0, 2752520, 3, 0, 2752523, 3, 0, 2752526, 3, 0, 2752529, 3, 0, 2752532, 3, 0, 2752535, 3, 0, 2752538, 3, 0, 2752541, 3, 0 )
 
 [node name="EndArea" type="Area2D" parent="."]
 position = Vector2( 981, 649 )
@@ -729,7 +732,7 @@ monitorable = false
 script = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
-position = Vector2( 7340, -1540 )
+position = Vector2( 7490, -1410 )
 scale = Vector2( 1.31227, 1.31227 )
 shape = SubResource( 90 )
 
@@ -745,11 +748,11 @@ position = Vector2( 72, 227 )
 script = ExtResource( 12 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 841, 650 )
+position = Vector2( 697.25, 650 )
 shape = SubResource( 92 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 841, -407 )
+position = Vector2( 764.625, -407 )
 shape = SubResource( 92 )
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
@@ -767,6 +770,7 @@ spread = 180.0
 timeline = "timeline-1669506514.json"
 
 [connection signal="timeout" from="ParallaxBackground/Countdown/Timer" to="ParallaxBackground/Countdown" method="_on_Timer_timeout"]
+[connection signal="timeout" from="Player/DeathTimer/Timer" to="Player/DeathTimer" method="_on_Timer_timeout"]
 [connection signal="body_entered" from="EndArea" to="EndArea" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="EndArea" to="EndArea" method="_on_Area2D_body_exited"]
 [connection signal="body_entered" from="DeadArea" to="DeadArea" method="_on_Area2D2_body_entered"]

@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://project/scripts/UI_Screens/Title.gd" type="Script" id=1]
 [ext_resource path="res://project/Shift.png" type="Texture" id=2]
 [ext_resource path="res://project/backgrounds/Tunnel 3.png" type="Texture" id=3]
 [ext_resource path="res://project/Button.png" type="Texture" id=4]
 [ext_resource path="res://project/music/Dark Atmosphere to Synth.wav" type="AudioStream" id=5]
+[ext_resource path="res://project/scenes/TransitionScreen.tscn" type="PackedScene" id=6]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Background"
@@ -17,7 +18,7 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 0.663194, -0.25, 0, 0.25, 0, 0.75, -0.25, 0, 0.25, 0, 0.663, -0.25, 0, 0.25, 0 ),
+"points": PoolRealArray( 0.663194, -0.25, 0, 0.25, 0, 0.7, -0.25, 0, 0.25, 0, 0.663, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0, 15, 30 )
 }
 tracks/1/type = "bezier"
@@ -27,7 +28,7 @@ tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"points": PoolRealArray( 0.663194, -0.25, 0, 0.25, 0, 0.75, -0.25, 0, 0.25, 0, 0.663, -0.25, 0, 0.25, 0 ),
+"points": PoolRealArray( 0.663194, -0.25, 0, 0.25, 0, 0.7, -0.25, 0, 0.25, 0, 0.663, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0, 15, 30 )
 }
 
@@ -72,28 +73,13 @@ __meta__ = {
 "_edit_horizontal_guides_": [  ]
 }
 
+[node name="Transition" parent="." instance=ExtResource( 6 )]
+layer = 0
+
 [node name="Tunnel3" type="Sprite" parent="."]
 position = Vector2( 611, 384 )
 scale = Vector2( 0.663194, 0.663194 )
 texture = ExtResource( 3 )
-
-[node name="CenterContainer" type="CenterContainer" parent="."]
-margin_left = 10.0
-margin_top = 128.0
-margin_right = 1031.0
-margin_bottom = 895.0
-
-[node name="Shift" type="Sprite" parent="CenterContainer"]
-position = Vector2( 515, 155 )
-scale = Vector2( 0.415137, 0.415137 )
-texture = ExtResource( 2 )
-
-[node name="GameStart" type="TextureButton" parent="CenterContainer"]
-margin_left = 366.0
-margin_top = 353.0
-margin_right = 655.0
-margin_bottom = 414.0
-texture_normal = ExtResource( 4 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
@@ -105,4 +91,24 @@ autoplay = "Background"
 anims/Background = SubResource( 1 )
 anims/RESET = SubResource( 2 )
 
-[connection signal="button_up" from="CenterContainer/GameStart" to="." method="_on_GameStart_button_up"]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="CenterContainer" type="CenterContainer" parent="CanvasLayer"]
+margin_left = 10.0
+margin_top = 128.0
+margin_right = 1031.0
+margin_bottom = 895.0
+
+[node name="Shift" type="Sprite" parent="CanvasLayer/CenterContainer"]
+position = Vector2( 515, 155 )
+scale = Vector2( 0.415137, 0.415137 )
+texture = ExtResource( 2 )
+
+[node name="GameStart" type="TextureButton" parent="CanvasLayer/CenterContainer"]
+margin_left = 366.0
+margin_top = 353.0
+margin_right = 655.0
+margin_bottom = 414.0
+texture_normal = ExtResource( 4 )
+
+[connection signal="button_up" from="CanvasLayer/CenterContainer/GameStart" to="." method="_on_GameStart_button_up"]

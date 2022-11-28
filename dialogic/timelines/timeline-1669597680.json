@@ -1,0 +1,159 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://project/music/The Story Continues.wav",
+			"volume": -20
+		},
+		{
+			"background": "res://project/backgrounds/Rooftop.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In this world, it was just the 2 of us."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We would play together."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We would laugh with each other."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We would make jokes with one another."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "With each decade passing, feeling as if our time together would last forever."
+		},
+		{
+			"emit_signal": "transition_out",
+			"event_id": "dialogic_040"
+		},
+		{
+			"background": "res://project/backgrounds/Street lamp.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "... But that was until [b]he[/b] disappeared and I was alone."
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It looks like I'm alone again this year."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This was the 4th decade since he had disappeared."
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I've waited 4 decades for him..."
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is it time for me to leave and find him myself?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I looked around one last time, and started sprinting forward."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://project/soundvfx/run_01.wav",
+			"volume": -15
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It was obvious to me what I wanted."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]I... just wanted to see them again.[/i]"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://project/soundvfx/run_01.wav",
+			"volume": -15
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3.5
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_scene": "res://project/scenes/Beginning.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1669597680.json",
+		"name": "Intro"
+	}
+}

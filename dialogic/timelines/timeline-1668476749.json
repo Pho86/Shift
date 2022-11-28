@@ -22,18 +22,7 @@
 
 			],
 			"portrait": "(Don't change)",
-			"question": "Please select a choice"
-		},
-		{
-			"choice": "Go Back To Title Screen",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_scene": "res://project/scenes/Title Screen.tscn",
-			"event_id": "dialogic_041"
+			"question": "[wave amp=15 freq=5]Please select a choice.[/wave]"
 		},
 		{
 			"choice": "Go Back To Current Level",
@@ -44,6 +33,17 @@
 		},
 		{
 			"change_scene": "res://project/scenes/Level1.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "Go Back To Title Screen",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://project/scenes/Title Screen.tscn",
 			"event_id": "dialogic_041"
 		}
 	],
