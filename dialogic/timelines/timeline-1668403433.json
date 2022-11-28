@@ -4,7 +4,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "44 years later..."
+			"text": "Sometime passes..."
 		},
 		{
 			"audio_bus": "Master",
@@ -16,6 +16,29 @@
 			"volume": -10
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How many days has it been? How many years? How many decades?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How long have I waited?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "When will this end?"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -23,7 +46,8 @@
 		},
 		{
 			"animation": "1-fade_in.gd",
-			"animation_length": 1,
+			"animation_length": 1.5,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1669595483.json",
@@ -46,6 +70,11 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "..."
+		},
+		{
+			"background": "res://project/backgrounds/set1/background (15).png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2.5
 		},
 		{
 			"character": "character-1669595483.json",
