@@ -36,6 +36,28 @@
 			"z_index": 0
 		},
 		{
+			"animation": "heartbeat.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -50,6 +72,7 @@
 		{
 			"animation": "[No Animation]",
 			"animation_length": 0,
+			"animation_repeat": 1,
 			"change_mirror_portrait": false,
 			"change_position": true,
 			"change_z_index": false,
@@ -95,10 +118,54 @@
 			"text": "[wave amp=5 freq=2]Stop running![/wave]"
 		},
 		{
+			"animation": "headshake.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_shock",
 			"text": "AHHHHHHH!!!"
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669694665.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
 		},
 		{
 			"character": "character-1669694665.json",
@@ -255,6 +322,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "Characters-6",
 			"text": "We need to get to the other side."
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
 		},
 		{
 			"event_id": "dialogic_023",

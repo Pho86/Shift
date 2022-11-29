@@ -627,12 +627,12 @@ radius = 13.0
 
 [sub_resource type="Theme" id=1]
 
+[sub_resource type="RectangleShape2D" id=126]
+extents = Vector2( 1515.63, 18.5 )
+
 [sub_resource type="CapsuleShape2D" id=125]
 radius = 371.07
 height = 853.482
-
-[sub_resource type="RectangleShape2D" id=126]
-extents = Vector2( 1515.63, 18.5 )
 
 [sub_resource type="RectangleShape2D" id=127]
 extents = Vector2( 9.40602, 22.5 )
@@ -772,19 +772,6 @@ margin_bottom = 61.0
 [node name="Timer" type="Timer" parent="ParallaxBackground/Countdown"]
 autostart = true
 
-[node name="EndArea" type="Area2D" parent="."]
-position = Vector2( 981, 649 )
-scale = Vector2( 0.1, 0.1 )
-z_as_relative = false
-input_pickable = false
-monitorable = false
-script = ExtResource( 10 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
-position = Vector2( 7860, -6340 )
-scale = Vector2( 1.31227, 1.31227 )
-shape = SubResource( 125 )
-
 [node name="DeadArea" type="Area2D" parent="."]
 position = Vector2( 72, 227 )
 script = ExtResource( 12 )
@@ -802,7 +789,20 @@ tile_set = ExtResource( 13 )
 cell_size = Vector2( 16, 16 )
 cell_quadrant_size = 15
 format = 1
-tile_data = PoolIntArray( 589930, 3, 0, 589933, 3, 0, 589936, 3, 0, 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097267, 19, 0, 2752497, 3, 0, 2752500, 3, 0, 2752503, 3, 0 )
+tile_data = PoolIntArray( 589930, 3, 0, 589933, 3, 0, 589936, 3, 0, 589938, 3, 0, 589939, 3, 0, 589941, 3, 0, 589942, 3, 0, 589945, 3, 0, 589947, 3, 0, 589949, 3, 0, 589952, 3, 0, 589953, 3, 0, 589954, 3, 0, 589955, 3, 0, 589956, 3, 0, 589957, 3, 0, 589958, 3, 0, 589959, 3, 0, 589960, 3, 0, 589961, 3, 0, 589962, 3, 0, 589963, 3, 0, 589964, 3, 0, 589965, 3, 0, 589966, 3, 0, 589969, 3, 0, 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097267, 19, 0, 2752497, 3, 0, 2752500, 3, 0, 2752503, 3, 0 )
+
+[node name="EndArea" type="Area2D" parent="."]
+position = Vector2( 981, 649 )
+scale = Vector2( 0.1, 0.1 )
+z_as_relative = false
+input_pickable = false
+monitorable = false
+script = ExtResource( 10 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
+position = Vector2( 9460, -5610 )
+scale = Vector2( 1.31227, 1.31227 )
+shape = SubResource( 125 )
 
 [node name="platform" type="KinematicBody2D" parent="."]
 position = Vector2( 226, 575 )
@@ -828,6 +828,6 @@ autoplay = true
 
 [connection signal="timeout" from="Player/DeathTimer/Timer" to="Player/DeathTimer" method="_on_Timer_timeout"]
 [connection signal="timeout" from="ParallaxBackground/Countdown/Timer" to="ParallaxBackground/Countdown" method="_on_Timer_timeout"]
+[connection signal="body_entered" from="DeadArea" to="DeadArea" method="_on_Area2D2_body_entered"]
 [connection signal="body_entered" from="EndArea" to="EndArea" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="EndArea" to="EndArea" method="_on_Area2D_body_exited"]
-[connection signal="body_entered" from="DeadArea" to="DeadArea" method="_on_Area2D2_body_entered"]

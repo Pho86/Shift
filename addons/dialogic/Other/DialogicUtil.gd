@@ -26,7 +26,6 @@ static func get_character_list() -> Array:
 				'file': file,
 				'portraits': data.get('portraits', []),
 				'display_name': data.get('display_name', ''),
-				'nickname': data.get('nickname', ''),
 				'data': data # This should be the only thing passed... not sure what I was thinking
 			})
 	return characters
