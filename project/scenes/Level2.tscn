@@ -1,599 +1,597 @@
-[gd_scene load_steps=137 format=2]
+[gd_scene load_steps=140 format=2]
 
-[ext_resource path="res://project/sprites/tiles/Tiles.tres" type="TileSet" id=1]
-[ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=2]
-[ext_resource path="res://project/scripts/Gameplay/Player.gd" type="Script" id=3]
-[ext_resource path="res://project/sprites/Sumu/sumu_walk.png" type="Texture" id=4]
-[ext_resource path="res://project/sprites/Sumu/sumu_run.png" type="Texture" id=5]
-[ext_resource path="res://project/sprites/Sumu/sumu_jump.png" type="Texture" id=6]
-[ext_resource path="res://project/backgrounds/set1/background (56).png" type="Texture" id=7]
-[ext_resource path="res://project/music/Empty Streets.wav" type="AudioStream" id=8]
-[ext_resource path="res://project/scripts/Gameplay/LevelComplete1.gd" type="Script" id=9]
-[ext_resource path="res://project/scripts/Gameplay/Timer.gd" type="Script" id=10]
-[ext_resource path="res://project/scripts/Gameplay/PlayerTimer.gd" type="Script" id=11]
+[ext_resource path="res://project/scripts/Gameplay/Timer.gd" type="Script" id=1]
+[ext_resource path="res://project/backgrounds/set1/background (18).png" type="Texture" id=2]
+[ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=3]
+[ext_resource path="res://project/sprites/Sumu/sumu_jump.png" type="Texture" id=4]
+[ext_resource path="res://project/scripts/Gameplay/Player.gd" type="Script" id=5]
+[ext_resource path="res://project/scripts/Gameplay/PlayerTimer.gd" type="Script" id=6]
+[ext_resource path="res://project/sprites/Sumu/sumu_walk.png" type="Texture" id=7]
+[ext_resource path="res://project/sprites/Sumu/sumu_run.png" type="Texture" id=8]
+[ext_resource path="res://project/sprites/Sumu/sumu_dead.png" type="Texture" id=9]
+[ext_resource path="res://project/scripts/Gameplay/LevelComplete2.gd" type="Script" id=10]
+[ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=11]
 [ext_resource path="res://project/scripts/Gameplay/FallOffLevel2.gd" type="Script" id=12]
-[ext_resource path="res://project/sprites/Sumu/sumu_dead.png" type="Texture" id=13]
-[ext_resource path="res://project/sprites/Sumu/dash_particle.png" type="Texture" id=14]
-[ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=15]
-
-[sub_resource type="Theme" id=122]
+[ext_resource path="res://project/sprites/tiles/Tiles.tres" type="TileSet" id=13]
+[ext_resource path="res://project/sprites/tiles/dark_tile.png" type="Texture" id=14]
+[ext_resource path="res://project/music/Empty Streets.wav" type="AudioStream" id=15]
 
 [sub_resource type="AtlasTexture" id=93]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 0, 0, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=94]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 601, 0, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=95]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1202, 0, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=96]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1803, 0, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=97]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 2404, 0, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=98]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 3005, 0, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=99]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 0, 510, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=100]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 601, 510, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=101]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1202, 510, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=102]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1803, 510, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=103]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 2404, 510, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=104]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 3005, 510, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=105]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 0, 1020, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=106]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 601, 1020, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=107]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1202, 1020, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=108]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1803, 1020, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=109]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 2404, 1020, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=110]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 3005, 1020, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=111]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 0, 1530, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=112]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 601, 1530, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=113]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1202, 1530, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=114]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1803, 1530, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=115]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 2404, 1530, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=116]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 3005, 1530, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=117]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 0, 2040, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=118]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 601, 2040, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=119]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1202, 2040, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=120]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 1803, 2040, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=121]
 flags = 4
-atlas = ExtResource( 13 )
+atlas = ExtResource( 9 )
 region = Rect2( 2404, 2040, 601, 466 )
 
 [sub_resource type="AtlasTexture" id=2]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 0, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=3]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 418, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=4]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 836, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=5]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 1254, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=6]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 1672, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=7]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 2090, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=8]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 2508, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=9]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 2926, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=10]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 3344, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=12]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 0, 456, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=13]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 418, 456, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=14]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 836, 456, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=15]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 1254, 456, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=16]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 1672, 456, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=17]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 2090, 456, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=18]
 flags = 4
-atlas = ExtResource( 2 )
+atlas = ExtResource( 3 )
 region = Rect2( 2508, 456, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=60]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 0, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=61]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 418, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=62]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 836, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=63]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 1254, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=64]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 1672, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=65]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 2090, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=66]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 2508, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=67]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 2926, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=68]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 3344, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=69]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 3762, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=70]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 4180, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=71]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 4598, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=72]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 5016, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=73]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 5434, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=74]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 5852, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=75]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 6270, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=76]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 6688, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=77]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 7106, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=78]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 7524, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=79]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 7942, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=80]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 8360, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=81]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 8778, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=82]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 9196, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=83]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 9614, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=84]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 10032, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=85]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 10450, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=86]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 10868, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=87]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 11286, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=88]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 11704, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=89]
 flags = 4
-atlas = ExtResource( 6 )
+atlas = ExtResource( 4 )
 region = Rect2( 12122, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=40]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 0, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=41]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 418, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=42]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 836, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=43]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 1254, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=44]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 1672, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=45]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 2090, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=46]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 2508, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=47]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 2926, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=48]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 3344, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=49]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 3762, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=50]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 4180, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=51]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 4598, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=52]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 5016, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=53]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 5434, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=54]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 5852, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=55]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 6270, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=56]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 6688, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=57]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 7106, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=58]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 7524, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=59]
 flags = 4
-atlas = ExtResource( 5 )
+atlas = ExtResource( 8 )
 region = Rect2( 7942, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=20]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 0, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=21]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 418, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=22]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 836, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=23]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 1254, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=24]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 1672, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=25]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 2090, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=26]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 2508, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=27]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 2926, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=28]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 3344, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=29]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 3762, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=30]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 4180, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=31]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 4598, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=32]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 5016, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=33]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 5434, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=34]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 5852, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=35]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 6270, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=36]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 6688, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=37]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 7106, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=38]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 7524, 0, 418, 456 )
 
 [sub_resource type="AtlasTexture" id=39]
 flags = 4
-atlas = ExtResource( 4 )
+atlas = ExtResource( 7 )
 region = Rect2( 7942, 0, 418, 456 )
 
-[sub_resource type="SpriteFrames" id=19]
+[sub_resource type="SpriteFrames" id=122]
 animations = [ {
 "frames": [ SubResource( 93 ), SubResource( 94 ), SubResource( 95 ), SubResource( 96 ), SubResource( 97 ), SubResource( 98 ), SubResource( 99 ), SubResource( 100 ), SubResource( 101 ), SubResource( 102 ), SubResource( 103 ), SubResource( 104 ), SubResource( 105 ), SubResource( 106 ), SubResource( 107 ), SubResource( 108 ), SubResource( 109 ), SubResource( 110 ), SubResource( 111 ), SubResource( 112 ), SubResource( 113 ), SubResource( 114 ), SubResource( 115 ), SubResource( 116 ), SubResource( 117 ), SubResource( 118 ), SubResource( 119 ), SubResource( 120 ), SubResource( 121 ) ],
 "loop": false,
@@ -621,39 +619,133 @@ animations = [ {
 "speed": 25.0
 } ]
 
-[sub_resource type="CircleShape2D" id=91]
+[sub_resource type="CircleShape2D" id=123]
 radius = 24.0208
 
-[sub_resource type="CapsuleShape2D" id=1]
+[sub_resource type="CapsuleShape2D" id=124]
 radius = 13.0
 
-[sub_resource type="CapsuleShape2D" id=90]
-radius = 381.02
+[sub_resource type="Theme" id=1]
+
+[sub_resource type="CapsuleShape2D" id=125]
+radius = 371.07
 height = 853.482
 
-[sub_resource type="RectangleShape2D" id=92]
+[sub_resource type="RectangleShape2D" id=126]
 extents = Vector2( 1515.63, 18.5 )
 
-[node name="World" type="Node2D"]
+[sub_resource type="RectangleShape2D" id=127]
+extents = Vector2( 9.40602, 22.5 )
+
+[sub_resource type="Animation" id=128]
+resource_name = "Platform1"
+length = 22.0
+loop = true
+tracks/0/type = "bezier"
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 226, -0.25, 0, 0.25, 0, -13, -0.25, 0, 0.25, 0, -13, -0.25, 0, 0.25, 0, 1597, -0.25, 0, 0.25, 0, 1597, -0.25, 0, 0.25, 0, 226, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 6, 7.5, 16, 18, 21.9 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 575, -0.25, 0, 0.25, 0, 671, -0.25, 0, 0.25, 0, 671, -0.25, 0, 0.25, 0, 167, -0.25, 0, 0.25, 0, 167, -0.25, 0, 0.25, 0, 575, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 6, 7.5, 16, 18, 21.9 )
+}
+
+[sub_resource type="Animation" id=129]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/path = NodePath(".:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 226, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath(".:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 575, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Dialog" parent="." instance=ExtResource( 11 )]
+margin_left = 981.0
+margin_top = 649.0
+margin_right = 981.0
+margin_bottom = 649.0
+timeline = "timeline-1669673637.json"
+
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( -177, 620 )
+script = ExtResource( 5 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
+position = Vector2( -2.72333, -11.4187 )
+scale = Vector2( 0.190789, 0.190789 )
+frames = SubResource( 122 )
+animation = "Idle"
+frame = 7
+speed_scale = 0.8
+playing = true
+offset = Vector2( 8.377, 15.298 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2( -3.72333, -22.4189 )
+current = true
+zoom = Vector2( 0.6, 0.6 )
+smoothing_enabled = true
+
+[node name="HeadCollision" type="CollisionShape2D" parent="Player"]
+position = Vector2( 6.27667, -19.4189 )
+shape = SubResource( 123 )
+
+[node name="BodyCollision" type="CollisionShape2D" parent="Player"]
+position = Vector2( 5.27667, 12.0001 )
+shape = SubResource( 124 )
+
+[node name="DeathTimer" type="Control" parent="Player"]
+margin_left = -132.0
+margin_top = 55.0
+margin_right = -92.0
+margin_bottom = 95.0
+script = ExtResource( 6 )
+seconds = 10
+
+[node name="Timer" type="Timer" parent="Player/DeathTimer"]
+autostart = true
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
-[node name="Background(56)" type="Sprite" parent="ParallaxBackground"]
-position = Vector2( -437, -32 )
-scale = Vector2( 0.762037, 0.762037 )
-texture = ExtResource( 7 )
-centered = false
-
-[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-visible = false
-motion_mirroring = Vector2( 1440, 0 )
+[node name="Background(18)" type="Sprite" parent="ParallaxBackground"]
+position = Vector2( 452.667, 397.5 )
+scale = Vector2( 0.834259, 0.834259 )
+texture = ExtResource( 2 )
 
 [node name="Countdown" type="Control" parent="ParallaxBackground"]
 margin_left = 8.0
 margin_top = 1.0
 margin_right = 1142.0
 margin_bottom = 334.0
-script = ExtResource( 10 )
+script = ExtResource( 1 )
 minutes = 1
 
 [node name="min" type="RichTextLabel" parent="ParallaxBackground/Countdown"]
@@ -661,7 +753,7 @@ margin_left = 5.0
 margin_top = 21.0
 margin_right = 45.0
 margin_bottom = 61.0
-theme = SubResource( 122 )
+theme = SubResource( 1 )
 text = "00"
 
 [node name="sec" type="RichTextLabel" parent="ParallaxBackground/Countdown"]
@@ -680,68 +772,18 @@ margin_bottom = 61.0
 [node name="Timer" type="Timer" parent="ParallaxBackground/Countdown"]
 autostart = true
 
-[node name="Player" type="KinematicBody2D" parent="."]
-script = ExtResource( 3 )
-
-[node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
-position = Vector2( -527.723, 579.581 )
-scale = Vector2( 0.190789, 0.190789 )
-frames = SubResource( 19 )
-animation = "Idle"
-frame = 8
-speed_scale = 0.8
-playing = true
-offset = Vector2( 8.377, 15.298 )
-
-[node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2( -528.723, 568.581 )
-current = true
-zoom = Vector2( 0.6, 0.6 )
-smoothing_enabled = true
-
-[node name="HeadCollision" type="CollisionShape2D" parent="Player"]
-position = Vector2( -518.723, 571.581 )
-shape = SubResource( 91 )
-
-[node name="BodyCollision" type="CollisionShape2D" parent="Player"]
-position = Vector2( -519.723, 603 )
-shape = SubResource( 1 )
-
-[node name="DeathTimer" type="Control" parent="Player"]
-margin_right = 40.0
-margin_bottom = 40.0
-script = ExtResource( 11 )
-seconds = 10
-
-[node name="Timer" type="Timer" parent="Player/DeathTimer"]
-autostart = true
-
-[node name="TileMap" type="TileMap" parent="."]
-tile_set = ExtResource( 1 )
-cell_size = Vector2( 16, 16 )
-cell_quadrant_size = 15
-format = 1
-tile_data = PoolIntArray( 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097267, 19, 0, 2162750, 3, 0, 2162762, 3, 0, 2162765, 3, 0, 2162793, 3, 0, 2162796, 3, 0, 2162799, 3, 0, 2162802, 3, 0, 2162805, 3, 0, 2162808, 3, 0, 2162811, 3, 0, 2162814, 3, 0, 2162817, 3, 0, 2228283, 3, 0, 2228304, 3, 0, 2228326, 3, 0, 2293810, 3, 0, 2293813, 3, 0, 2293816, 3, 0, 2293843, 3, 0, 2293846, 3, 0, 2293849, 3, 0, 2293852, 3, 0, 2293859, 3, 0, 2359343, 3, 0, 2424876, 3, 0, 2490409, 3, 0, 2621406, 3, 0, 2555942, 3, 0, 2686945, 3, 0, 2621475, 3, 0, 2752484, 3, 0, 2687008, 3, 0, 2818023, 3, 0, 2818026, 3, 0, 2818029, 3, 0, 2818032, 3, 0, 2818035, 3, 0, 2818038, 3, 0, 2818041, 3, 0, 2818044, 3, 0, 2818047, 3, 0, 2752514, 3, 0, 2752517, 3, 0, 2752520, 3, 0, 2752523, 3, 0, 2752526, 3, 0, 2752529, 3, 0, 2752532, 3, 0, 2752535, 3, 0, 2752538, 3, 0, 2752541, 3, 0 )
-
 [node name="EndArea" type="Area2D" parent="."]
 position = Vector2( 981, 649 )
 scale = Vector2( 0.1, 0.1 )
 z_as_relative = false
 input_pickable = false
 monitorable = false
-script = ExtResource( 9 )
+script = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
-position = Vector2( 9110, -1410 )
+position = Vector2( 7860, -6340 )
 scale = Vector2( 1.31227, 1.31227 )
-shape = SubResource( 90 )
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( 912, 594 )
-scale = Vector2( 0.392438, 0.392438 )
-stream = ExtResource( 8 )
-volume_db = -10.0
-autoplay = true
+shape = SubResource( 125 )
 
 [node name="DeadArea" type="Area2D" parent="."]
 position = Vector2( 72, 227 )
@@ -749,34 +791,43 @@ script = ExtResource( 12 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DeadArea"]
 position = Vector2( 697.25, 650 )
-shape = SubResource( 92 )
+shape = SubResource( 126 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 764.625, -407 )
-shape = SubResource( 92 )
+position = Vector2( 764.625, -583 )
+shape = SubResource( 126 )
 
-[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-position = Vector2( -638, 606 )
-emitting = false
-amount = 80
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 13 )
+cell_size = Vector2( 16, 16 )
+cell_quadrant_size = 15
+format = 1
+tile_data = PoolIntArray( 589930, 3, 0, 589933, 3, 0, 589936, 3, 0, 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097267, 19, 0, 2752497, 3, 0, 2752500, 3, 0, 2752503, 3, 0 )
+
+[node name="platform" type="KinematicBody2D" parent="."]
+position = Vector2( 226, 575 )
+scale = Vector2( 7.38889, 1 )
+
+[node name="Sprite" type="Sprite" parent="platform"]
+position = Vector2( 0.372181, -1.5 )
 texture = ExtResource( 14 )
-emission_shape = 1
-emission_sphere_radius = 7.25
-direction = Vector2( 5, 0 )
-spread = 180.0
 
-[node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
-position = Vector2( -685, 587 )
-amount = 30
-lifetime = 2.0
-speed_scale = 2.0
-explosiveness = 1.0
+[node name="shape" type="CollisionShape2D" parent="platform"]
+position = Vector2( 0.439849, 0 )
+shape = SubResource( 127 )
 
-[node name="Dialog" parent="." instance=ExtResource( 15 )]
-timeline = "timeline-1669506514.json"
+[node name="AnimationPlayer" type="AnimationPlayer" parent="platform"]
+autoplay = "Platform1"
+anims/Platform1 = SubResource( 128 )
+anims/RESET = SubResource( 129 )
 
-[connection signal="timeout" from="ParallaxBackground/Countdown/Timer" to="ParallaxBackground/Countdown" method="_on_Timer_timeout"]
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 15 )
+volume_db = -10.0
+autoplay = true
+
 [connection signal="timeout" from="Player/DeathTimer/Timer" to="Player/DeathTimer" method="_on_Timer_timeout"]
+[connection signal="timeout" from="ParallaxBackground/Countdown/Timer" to="ParallaxBackground/Countdown" method="_on_Timer_timeout"]
 [connection signal="body_entered" from="EndArea" to="EndArea" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="EndArea" to="EndArea" method="_on_Area2D_body_exited"]
 [connection signal="body_entered" from="DeadArea" to="DeadArea" method="_on_Area2D2_body_entered"]

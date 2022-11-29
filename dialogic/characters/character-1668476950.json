@@ -8,14 +8,22 @@
 	"name": "Ghost",
 	"nickname": "...",
 	"nickname_bool": true,
-	"offset_x": 0,
-	"offset_y": 0,
+	"offset_x": 75,
+	"offset_y": 250,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://project/characters/Shi/Characters-6.png"
+		},
+		{
+			"name": "Characters-5",
+			"path": "res://project/characters/Shi/Characters-5.png"
+		},
+		{
+			"name": "Characters-6",
+			"path": "res://project/characters/Shi/Characters-6.png"
 		}
 	],
-	"scale": 100,
+	"scale": 350,
 	"theme": ""
 }

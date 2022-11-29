@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://project/backgrounds/set1/background (18).png" type="Texture" id=1]
+[ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=2]
+[ext_resource path="res://project/backgrounds/set1/background (15).png" type="Texture" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Dialog" parent="." instance=ExtResource( 2 )]
+margin_left = 517.151
+margin_top = 378.0
+margin_right = 517.151
+margin_bottom = 378.0
+timeline = "timeline-1669674450.json"
+
+[node name="Background(18)" type="Sprite" parent="."]
+position = Vector2( 519, 378 )
+scale = Vector2( 0.616382, 0.718056 )
+texture = ExtResource( 1 )
+
+[node name="Background(15)" type="Sprite" parent="."]
+visible = false
+position = Vector2( 442, 508 )
+texture = ExtResource( 3 )

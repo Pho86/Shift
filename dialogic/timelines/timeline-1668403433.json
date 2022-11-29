@@ -18,7 +18,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1.5
+			"wait_seconds": 1
 		},
 		{
 			"character": "",
@@ -39,15 +39,14 @@
 			"text": "When will this end?"
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": ""
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
 		},
 		{
 			"animation": "1-fade_in.gd",
 			"animation_length": 1.5,
-			"animation_wait": true,
+			"animation_wait": false,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1669595483.json",
@@ -116,8 +115,9 @@
 			"text": ""
 		},
 		{
-			"animation": "back_in_left.gd",
+			"animation": "back_in_right.gd",
 			"animation_length": 1,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1668476950.json",
@@ -140,6 +140,34 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "[wave amp=15 freq=5]BOO![/wave]"
+		},
+		{
+			"animation": "headshake.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"change_mirror_portrait": false,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "lc_angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_angry",
+			"text": "AHHHH"
 		},
 		{
 			"change_scene": "res://project/scenes/Level1.tscn",
