@@ -15,9 +15,11 @@ var facingRight = true
 var direction = Vector2.ZERO
 onready var sprite = $AnimatedSprite
 
-func _create_ghost():
-	var ghost: AnimatedSprite = ShiftGhost.instance()
-	get_parent().get_parent().add_child(ghost)
+#func _create_ghost():
+#	var ghost: AnimatedSprite = ShiftGhost.instance()
+##	print(ghost)
+#	get_parent().get_parent().add_child(ghost)
+#	print(ghost)
 
 func _ready():
 	direction = Vector2(1,0)
@@ -63,7 +65,6 @@ func _physics_process(_delta):
 	if Input.is_action_just_pressed("dash") and canDash and !is_on_floor():
 #		motion.x = clamp(motion.x, 1000, MAXSPEED)
 		motion.x = clamp(motion.x, 1000, 1000)
-		_create_ghost()
 		motion.x = direction.x * 5000
 		canDash = false
 		

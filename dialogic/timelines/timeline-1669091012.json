@@ -20,7 +20,7 @@
 			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1668476923.json",
+			"character": "character-1669595483.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "Default",
@@ -36,16 +36,55 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1668476923.json",
+			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "HUFF"
 		},
 		{
-			"character": "character-1668476923.json",
+			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_frown",
 			"text": "Why am I so slow?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Stop running."
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_scene": "res://project/scenes/Level2.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

@@ -7,20 +7,19 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1,
-			"waiting_skippable": true
+			"wait_seconds": 1
 		},
 		{
-			"character": "",
+			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "lc_worry",
-			"text": "I need to run away from [b]that.[/b][nw=3]"
+			"portrait": "",
+			"text": "How do I get across to the other side?[nw=3]"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[color=#FFFFFF]Press WASD to move and SPACE in the air to shift[/color].[nw=5]"
+			"text": "I need to look or wait for something...[nw=5]"
 		},
 		{
 			"event_id": "dialogic_022",
@@ -29,7 +28,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1669506514.json",
-		"name": "Level1"
+		"file": "timeline-1669673637.json",
+		"name": "Level2"
 	}
 }
