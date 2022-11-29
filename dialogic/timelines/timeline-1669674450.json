@@ -32,8 +32,8 @@
 		},
 		{
 			"animation": "tada.gd",
-			"animation_length": 2,
-			"animation_repeat": 4,
+			"animation_length": 1.5,
+			"animation_repeat": 2,
 			"change_mirror_portrait": false,
 			"change_position": false,
 			"change_z_index": false,
@@ -80,7 +80,7 @@
 			"z_index": 0
 		},
 		{
-			"animation": "1-fade_in.gd",
+			"animation": "bouncing_in.gd",
 			"animation_length": 1,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -106,17 +106,38 @@
 			"text": "No you aren't."
 		},
 		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
 			"animation": "headshake.gd",
 			"animation_length": 1,
-			"animation_repeat": 2,
+			"animation_repeat": 1,
 			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_position": false,
 			"change_z_index": false,
-			"character": "character-1669694665.json",
+			"character": "character-1668476950.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Characters-6",
+			"portrait": "(Don't change)",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -135,10 +156,45 @@
 			"text": "You're stupid."
 		},
 		{
+			"animation": "shake_x.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "lc_shock",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "lc_shock",
+			"portrait": "(Don't change)",
 			"text": "What!?"
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "END OF ALPHA VERSION. TY"
 		}
 	],
 	"metadata": {

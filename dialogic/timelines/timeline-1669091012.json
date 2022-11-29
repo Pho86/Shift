@@ -36,6 +36,28 @@
 			"z_index": 0
 		},
 		{
+			"animation": "heartbeat.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -48,8 +70,9 @@
 			"text": "Why am I so slow?"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "[No Animation]",
 			"animation_length": 0,
+			"animation_repeat": 1,
 			"change_mirror_portrait": false,
 			"change_position": true,
 			"change_z_index": false,
@@ -76,7 +99,7 @@
 			"character": "character-1669694665.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Characters-5",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -92,13 +115,213 @@
 			"character": "character-1669694665.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "Stop running."
+			"text": "[wave amp=5 freq=2]Stop running![/wave]"
 		},
 		{
-			"character": "",
+			"animation": "headshake.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
+			"portrait": "lc_shock",
+			"text": "AHHHHHHH!!!"
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669694665.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1669694665.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-5",
+			"text": "WAIT!"
+		},
+		{
+			"character": "character-1669694665.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-6",
+			"text": "I'm not a bad guy."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669694665.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Characters-6",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-6",
+			"text": "My name is Shi and I'm here to help you."
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "I..."
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "I dont remember my name..."
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-5",
+			"text": "Let's call you Sumu for now."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
 			"portrait": "",
-			"text": ""
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Characters-6",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "I... like that name..."
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-5",
+			"text": "Let's get out of this place first."
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-6",
+			"text": "We need to get to the other side."
 		},
 		{
 			"background": "",

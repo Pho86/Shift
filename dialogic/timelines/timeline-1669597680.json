@@ -142,6 +142,11 @@
 			"text": "[i]I...[/i]"
 		},
 		{
+			"background": "res://project/backgrounds/Street lamp_superzoom.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",

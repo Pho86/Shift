@@ -36,7 +36,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "When will this end?"
+			"text": "When will this journey end?"
 		},
 		{
 			"event_id": "dialogic_023",
@@ -165,7 +165,7 @@
 		},
 		{
 			"animation": "headshake.gd",
-			"animation_length": 1,
+			"animation_length": 1.5,
 			"animation_repeat": 5,
 			"change_mirror_portrait": false,
 			"change_position": true,
