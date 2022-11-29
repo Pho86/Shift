@@ -1,6 +1,15 @@
 {
 	"events": [
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://project/music/Mystery Unsolved.wav",
+			"volume": -10
+		},
+		{
 			"animation": "2-fade_in_up.gd",
 			"animation_length": 1,
 			"animation_wait": true,
@@ -22,10 +31,114 @@
 			"z_index": 0
 		},
 		{
+			"animation": "tada.gd",
+			"animation_length": 2,
+			"animation_repeat": 4,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I'm unstoppable! "
+			"text": "I'm so smart! Shi you're an idiot! "
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-5",
+			"text": "No you aren't."
+		},
+		{
+			"animation": "headshake.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669694665.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Characters-6",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "You're stupid."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_shock",
+			"text": "What!?"
 		}
 	],
 	"metadata": {

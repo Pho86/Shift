@@ -5,9 +5,9 @@
 	"display_name_bool": true,
 	"id": "character-1668476950.json",
 	"mirror_portraits": false,
-	"name": "Ghost",
+	"name": "Shi",
 	"nickname": "...",
-	"nickname_bool": true,
+	"nickname_bool": false,
 	"offset_x": 75,
 	"offset_y": 250,
 	"portraits": [

@@ -85,19 +85,30 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "This was the 4th year since he had disappeared."
+			"text": "It's been 4 decades since he had disappeared."
 		},
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I've waited 4 years for him..."
+			"text": "And so... I've waited all this time for him..."
 		},
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Is it time for me to leave and find him myself?"
+			"text": "[speed=7]Is it..."
+		},
+		{
+			"background": "res://project/backgrounds/Street lamp_zoom.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is it... time for me to leave this world and find him myself?"
 		},
 		{
 			"character": "",
@@ -128,6 +139,12 @@
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
+			"text": "[i]I...[/i]"
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
 			"text": "[i]I... just wanted to see them again.[/i]"
 		},
 		{
@@ -141,7 +158,7 @@
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 3.5
+			"wait_seconds": 3
 		},
 		{
 			"background": "",

@@ -639,7 +639,7 @@ extents = Vector2( 9.40602, 22.5 )
 
 [sub_resource type="Animation" id=128]
 resource_name = "Platform1"
-length = 22.0
+length = 23.0
 loop = true
 tracks/0/type = "bezier"
 tracks/0/path = NodePath(".:position:x")
@@ -649,7 +649,7 @@ tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
 "points": PoolRealArray( 226, -0.25, 0, 0.25, 0, -13, -0.25, 0, 0.25, 0, -13, -0.25, 0, 0.25, 0, 1597, -0.25, 0, 0.25, 0, 1597, -0.25, 0, 0.25, 0, 226, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0, 6, 7.5, 16, 18, 21.9 )
+"times": PoolRealArray( 0, 6, 7.5, 17, 19, 22.9 )
 }
 tracks/1/type = "bezier"
 tracks/1/path = NodePath(".:position:y")
@@ -659,7 +659,7 @@ tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
 "points": PoolRealArray( 575, -0.25, 0, 0.25, 0, 671, -0.25, 0, 0.25, 0, 671, -0.25, 0, 0.25, 0, 167, -0.25, 0, 0.25, 0, 167, -0.25, 0, 0.25, 0, 575, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0, 6, 7.5, 16, 18, 21.9 )
+"times": PoolRealArray( 0, 6, 7.5, 17, 19, 22.9 )
 }
 
 [sub_resource type="Animation" id=129]
@@ -703,7 +703,7 @@ position = Vector2( -2.72333, -11.4187 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 122 )
 animation = "Idle"
-frame = 7
+frame = 11
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
