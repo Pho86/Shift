@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/The Nightclub.ogg-53305ef3b7a899977d6fb8e94bd81341.oggstr"
+
+[deps]
+
+source_file="res://project/music/The Nightclub.ogg"
+dest_files=[ "res://.import/The Nightclub.ogg-53305ef3b7a899977d6fb8e94bd81341.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,29 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "Ghost?",
+	"display_name_bool": true,
+	"id": "character-1669694665.json",
+	"mirror_portraits": false,
+	"name": "Shi Unknown",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 75,
+	"offset_y": 250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://project/characters/Shi/Characters-6.png"
+		},
+		{
+			"name": "Characters-5",
+			"path": "res://project/characters/Shi/Characters-5.png"
+		},
+		{
+			"name": "Characters-6",
+			"path": "res://project/characters/Shi/Characters-6.png"
+		}
+	],
+	"scale": 350,
+	"theme": ""
+}

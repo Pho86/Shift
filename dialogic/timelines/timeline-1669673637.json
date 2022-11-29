@@ -5,6 +5,15 @@
 			"set_theme": "theme-1669506712.cfg"
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
 			"wait_seconds": 1
@@ -16,10 +25,22 @@
 			"text": "How do I get across to the other side?[nw=3]"
 		},
 		{
-			"character": "",
+			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I need to look or wait for something...[nw=5]"
+			"text": "You need to find or wait for something...[nw=4]"
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=10 freq=5]shishishi...[nw=5][/wave]"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_angry",
+			"text": "Stop.[nw=3]"
 		},
 		{
 			"event_id": "dialogic_022",

@@ -4,7 +4,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Sometime passes..."
+			"text": "Some time passes..."
 		},
 		{
 			"audio_bus": "Master",
@@ -120,7 +120,7 @@
 			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1668476950.json",
+			"character": "character-1669694665.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
 			"portrait": "Default",
@@ -136,15 +136,37 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1668476950.json",
+			"animation": "heartbeat.gd",
+			"animation_length": 1,
+			"animation_repeat": 5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669694665.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1669694665.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Characters-5",
 			"text": "[wave amp=15 freq=5]BOO![/wave]"
 		},
 		{
 			"animation": "headshake.gd",
 			"animation_length": 1,
-			"animation_repeat": 2,
+			"animation_repeat": 5,
 			"change_mirror_portrait": false,
 			"change_position": true,
 			"change_z_index": false,
@@ -166,8 +188,8 @@
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
-			"portrait": "lc_angry",
-			"text": "AHHHH"
+			"portrait": "lc_shock",
+			"text": "AHHHHH!!!"
 		},
 		{
 			"change_scene": "res://project/scenes/Level1.tscn",
