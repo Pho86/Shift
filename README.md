@@ -2,13 +2,15 @@ Shift.
 
 WIP Visual Novel/Game
 ## TODO
-* Add story
+* Finish Chapter 1's story
+* Improve player movement (buggy as of right now)
 * add dash animations
-* add shi (ghost) sprite
-* add more levels
 * add obstacles for levels
-* add more music
 * add death animation
-* add more background assets
+* make art consistent
 * add more choices
 * and a lot more...
+
+## Complete
+* add shi (ghost) sprite
+* add more music
