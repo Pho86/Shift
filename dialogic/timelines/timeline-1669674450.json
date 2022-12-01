@@ -185,16 +185,150 @@
 			"text": "What!?"
 		},
 		{
+			"animation": "[No Animation]",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Characters-6",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-6",
+			"text": "..."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "What's wrong?"
+		},
+		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": ""
+			"text": "..."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You realize Shi is staring at something on the ground and go to pick it up."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What's this?"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It.."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's a photograph?"
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_frown",
+			"text": "It... kind of looks like a picture of two people?"
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-5",
+			"text": "It's a photograph of boy and a girl. We need to go right now."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": true,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "Characters-6",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 2,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
 			"portrait": "(Don't change)",
-			"text": "END OF ALPHA VERSION. TY"
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You put the photograph in your pocket and start to run after Shi."
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"change_scene": "",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {
