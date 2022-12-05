@@ -1,4 +1,4 @@
-[gd_scene load_steps=140 format=2]
+[gd_scene load_steps=141 format=2]
 
 [ext_resource path="res://project/scripts/Gameplay/Timer.gd" type="Script" id=1]
 [ext_resource path="res://project/backgrounds/set1/background (18).png" type="Texture" id=2]
@@ -630,12 +630,15 @@ radius = 13.0
 [sub_resource type="RectangleShape2D" id=126]
 extents = Vector2( 1515.63, 18.5 )
 
+[sub_resource type="RectangleShape2D" id=130]
+extents = Vector2( 32, 252 )
+
 [sub_resource type="CapsuleShape2D" id=125]
 radius = 371.07
 height = 853.482
 
 [sub_resource type="RectangleShape2D" id=127]
-extents = Vector2( 9.40602, 22.5 )
+extents = Vector2( 11.1147, 22.5 )
 
 [sub_resource type="Animation" id=128]
 resource_name = "Platform1"
@@ -687,6 +690,11 @@ tracks/1/keys = {
 
 [node name="Node2D" type="Node2D"]
 
+[node name="Background(18)" type="Sprite" parent="."]
+position = Vector2( 888.445, 273 )
+scale = Vector2( 1.51968, 1.51968 )
+texture = ExtResource( 2 )
+
 [node name="Dialog" parent="." instance=ExtResource( 11 )]
 margin_left = 981.0
 margin_top = 649.0
@@ -703,7 +711,7 @@ position = Vector2( -2.72333, -11.4187 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 122 )
 animation = "Idle"
-frame = 11
+frame = 7
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -734,11 +742,6 @@ seconds = 10
 autostart = true
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
-
-[node name="Background(18)" type="Sprite" parent="ParallaxBackground"]
-position = Vector2( 452.667, 397.5 )
-scale = Vector2( 0.834259, 0.834259 )
-texture = ExtResource( 2 )
 
 [node name="Countdown" type="Control" parent="ParallaxBackground"]
 margin_left = 8.0
@@ -789,7 +792,13 @@ tile_set = ExtResource( 13 )
 cell_size = Vector2( 16, 16 )
 cell_quadrant_size = 15
 format = 1
-tile_data = PoolIntArray( 589930, 3, 0, 589933, 3, 0, 589936, 3, 0, 589938, 3, 0, 589939, 3, 0, 589941, 3, 0, 589942, 3, 0, 589945, 3, 0, 589947, 3, 0, 589949, 3, 0, 589952, 3, 0, 589953, 3, 0, 589954, 3, 0, 589955, 3, 0, 589956, 3, 0, 589957, 3, 0, 589958, 3, 0, 589959, 3, 0, 589960, 3, 0, 589961, 3, 0, 589962, 3, 0, 589963, 3, 0, 589964, 3, 0, 589965, 3, 0, 589966, 3, 0, 589969, 3, 0, 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097267, 19, 0, 2752497, 3, 0, 2752500, 3, 0, 2752503, 3, 0 )
+tile_data = PoolIntArray( 589930, 3, 0, 589933, 3, 0, 589936, 3, 0, 589938, 3, 0, 589939, 3, 0, 589941, 3, 0, 589942, 3, 0, 589945, 3, 0, 589947, 3, 0, 589949, 3, 0, 589952, 3, 0, 589953, 3, 0, 589954, 3, 0, 589955, 3, 0, 589956, 3, 0, 589957, 3, 0, 589958, 3, 0, 589959, 3, 0, 589960, 3, 0, 589961, 3, 0, 589962, 3, 0, 589963, 3, 0, 589964, 3, 0, 589965, 3, 0, 589966, 3, 0, 589969, 3, 0, 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097267, 19, 0, 2752470, 3, 0, 2752473, 3, 0, 2752476, 3, 0, 2752479, 3, 0, 2752482, 3, 0, 2752485, 3, 0, 2752488, 3, 0, 2752491, 3, 0, 2752494, 3, 0, 2752497, 3, 0, 2752500, 3, 0, 2752503, 3, 0 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( -272, 450 )
+shape = SubResource( 130 )
 
 [node name="EndArea" type="Area2D" parent="."]
 position = Vector2( 981, 649 )
@@ -800,23 +809,39 @@ monitorable = false
 script = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
-position = Vector2( 9460, -5610 )
+position = Vector2( 10390, -5610 )
 scale = Vector2( 1.31227, 1.31227 )
 shape = SubResource( 125 )
 
-[node name="platform" type="KinematicBody2D" parent="."]
+[node name="Platform" type="KinematicBody2D" parent="."]
 position = Vector2( 226, 575 )
 scale = Vector2( 7.38889, 1 )
 
-[node name="Sprite" type="Sprite" parent="platform"]
-position = Vector2( 0.372181, -1.5 )
+[node name="Sprite" type="Sprite" parent="Platform"]
+position = Vector2( -6.22556, 0 )
+scale = Vector2( 0.315789, 2.38976 )
 texture = ExtResource( 14 )
 
-[node name="shape" type="CollisionShape2D" parent="platform"]
-position = Vector2( 0.439849, 0 )
+[node name="Sprite2" type="Sprite" parent="Platform"]
+position = Vector2( -0.676689, 0 )
+scale = Vector2( 0.315789, 2.38976 )
+texture = ExtResource( 14 )
+
+[node name="Sprite3" type="Sprite" parent="Platform"]
+position = Vector2( 4.87218, 0 )
+scale = Vector2( 0.315789, 2.38976 )
+texture = ExtResource( 14 )
+
+[node name="Sprite4" type="Sprite" parent="Platform"]
+position = Vector2( 10.4211, 0 )
+scale = Vector2( 0.315789, 2.38976 )
+texture = ExtResource( 14 )
+
+[node name="shape" type="CollisionShape2D" parent="Platform"]
+position = Vector2( 2.14849, 0 )
 shape = SubResource( 127 )
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="platform"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform"]
 autoplay = "Platform1"
 anims/Platform1 = SubResource( 128 )
 anims/RESET = SubResource( 129 )
