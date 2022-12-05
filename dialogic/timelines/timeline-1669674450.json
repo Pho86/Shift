@@ -264,7 +264,7 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "It's a photograph of boy and a girl. We need to go right now."
+			"text": "It's a photograph of boy and a girl you idiot. We need to go right now."
 		},
 		{
 			"animation": "[No Animation]",
@@ -323,8 +323,42 @@
 			"text": "You put the photograph in your pocket and start to run after Shi."
 		},
 		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://project/soundvfx/run_01.wav",
+			"volume": -15
+		},
+		{
 			"background": "",
 			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
 		},
 		{
 			"change_scene": "",

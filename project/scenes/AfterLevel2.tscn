@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://project/backgrounds/set1/background (18).png" type="Texture" id=1]
+[ext_resource path="res://project/backgrounds/set1/background (20).png" type="Texture" id=1]
 [ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=2]
 
 [node name="Node2D" type="Node2D"]
@@ -12,7 +12,7 @@ margin_right = 517.151
 margin_bottom = 378.0
 timeline = "timeline-1669674450.json"
 
-[node name="Background(18)" type="Sprite" parent="."]
-position = Vector2( 519, 378 )
+[node name="Background(20)" type="Sprite" parent="."]
+position = Vector2( 519, 384 )
 scale = Vector2( 0.616382, 0.718056 )
 texture = ExtResource( 1 )
