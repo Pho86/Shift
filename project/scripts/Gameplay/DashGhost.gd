@@ -5,5 +5,5 @@ func _ready():
 	$Tween.set_ease(Tween.EASE_OUT)
 	$Tween.tween_property(self,"modulate:a",0.0,0.5)
 
-func _on_Tween_tween_completed(object: Object, key: NodePath) -> void:
+func _on_Tween_tween_completed(_object: Object, _key: NodePath) -> void:
 	queue_free()
