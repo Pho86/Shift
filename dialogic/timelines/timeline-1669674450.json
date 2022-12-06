@@ -261,15 +261,23 @@
 			"text": "It... kind of looks like a picture of two people?"
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "It's a photograph of boy and a girl you idiot. We need to go right now."
+			"text": "We need to go right now."
 		},
 		{
 			"animation": "[No Animation]",
 			"animation_length": 1,
-			"animation_wait": true,
+			"animation_wait": false,
 			"change_mirror_portrait": true,
 			"change_position": false,
 			"change_z_index": false,

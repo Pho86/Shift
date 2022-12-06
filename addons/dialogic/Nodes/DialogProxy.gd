@@ -30,7 +30,6 @@ func _copy_signals(dialogic:Node):
 var _signals_to_copy = [
 	'event_start',
 	'event_end',
-	'text_complete',
 	'timeline_start',
 	'timeline_end',
 	'dialogic_signal',
