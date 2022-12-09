@@ -8,19 +8,31 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[wave amp=10 freq=10]AHHHHHHHH!!![nw=3][/wave]"
-		},
-		{
-			"character": "character-1668476923.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "[wave amp=10 freq=10]AHHHHHHHH!!![nw=3][/wave]"
+			"text": "[wave amp=10 freq=10]AHHHHHHHH!!![nw=4][/wave]"
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I'll see you soon.[nw=3]"
+			"text": "RELAX! That drop leads to the sewers. Just remember to always go right.[nw=4]"
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We can meet each other after you get out.[nw=3]"
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'll see you soon, my—[nw=3]"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=10 freq=10]AHHHH!!! IM SCARED!!! HELP ME!!![nw=3][/wave]"
 		},
 		{
 			"event_id": "dialogic_023",
