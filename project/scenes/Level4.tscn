@@ -625,10 +625,10 @@ scale = Vector2( 1.01, 1.01 )
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ColorRect" type="ColorRect" parent="ParallaxBackground"]
-margin_left = -106.0
-margin_top = -68.0
-margin_right = 1099.0
-margin_bottom = 815.0
+margin_left = -120.0
+margin_top = -85.0
+margin_right = 1085.0
+margin_bottom = 798.0
 rect_pivot_offset = Vector2( -448, 1382 )
 color = Color( 0, 0, 0, 1 )
 
@@ -638,10 +638,10 @@ script = ExtResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
 position = Vector2( -2.72333, -11.4187 )
-scale = Vector2( 0.190789, 0.190789 )
+scale = Vector2( 0.301, 0.301 )
 frames = SubResource( 122 )
 animation = "Idle"
-frame = 2
+frame = 7
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -654,15 +654,18 @@ smoothing_enabled = true
 
 [node name="HeadCollision" type="CollisionShape2D" parent="Player"]
 position = Vector2( 6.27667, -19.4189 )
+scale = Vector2( 0.301, 0.301 )
 shape = SubResource( 123 )
 
 [node name="BodyCollision" type="CollisionShape2D" parent="Player"]
 position = Vector2( 5.27667, 12.0001 )
+scale = Vector2( 0.301, 0.301 )
 shape = SubResource( 124 )
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 7 )
 autoplay = true
+max_distance = 50000.0
 
 [node name="Dialog" parent="." instance=ExtResource( 8 )]
 timeline = "timeline-1670622672.json"

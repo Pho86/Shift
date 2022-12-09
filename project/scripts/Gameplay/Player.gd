@@ -61,7 +61,7 @@ func _physics_process(_delta):
 		$AnimatedSprite.play("Idle")
 		motion.x = lerp(motion.x,0,0.2)
 		
-		
+
 	if Input.is_action_just_pressed("dash") and canDash and !is_on_floor():
 		motion.x = clamp(motion.x, 1000, 0)
 		motion.x = direction.x * 5000
@@ -70,6 +70,8 @@ func _physics_process(_delta):
 	if is_on_floor():
 		canDash = true
 		if Input.is_action_just_pressed("up"):
+			motion.y = -JUMPFORCE
+		if Input.is_action_just_pressed("dash") and is_on_floor():
 			motion.y = -JUMPFORCE
 	if !is_on_floor():
 		$AnimatedSprite.play("Jump")
