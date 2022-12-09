@@ -43,7 +43,7 @@
 			"value": ""
 		},
 		{
-			"change_scene": "res://project/scenes/Level1.tscn",
+			"change_scene": "res://project/scenes/Level3.tscn",
 			"event_id": "dialogic_041"
 		},
 		{
@@ -56,20 +56,11 @@
 		{
 			"change_scene": "res://project/scenes/Title Screen.tscn",
 			"event_id": "dialogic_041"
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "dwad"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1668476749.json",
-		"name": "Gameover"
+		"file": "timeline-1670561047.json",
+		"name": "Gameover3"
 	}
 }

@@ -13,3 +13,4 @@ func _on_Area2D_body_exited(_body: PhysicsBody2D):
 func _process(_delta):
 	if entered == true:
 		get_tree().change_scene("res://project/scenes/AfterLevel1.tscn")
+		
