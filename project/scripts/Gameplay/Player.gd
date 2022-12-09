@@ -67,7 +67,6 @@ func _physics_process(_delta):
 		motion.x = direction.x * 5000
 		canDash = false
 		
-		
 	if is_on_floor():
 		canDash = true
 		if Input.is_action_just_pressed("up"):
