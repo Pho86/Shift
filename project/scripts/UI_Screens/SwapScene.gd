@@ -11,4 +11,5 @@ func _on_Area2D_body_exited(body):
 func _process(delta):
 	if entered == true:
 		if Input.is_action_just_pressed("ui_accept"):
+			# warning-ignore:return_value_discarded
 			get_tree().change_scene("res://project/scenes/AfterLevel.tscn")

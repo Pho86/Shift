@@ -627,8 +627,8 @@ radius = 24.0208
 radius = 13.0
 
 [sub_resource type="CapsuleShape2D" id=90]
-radius = 381.02
-height = 853.482
+radius = 220.991
+height = 1188.78
 
 [sub_resource type="RectangleShape2D" id=92]
 extents = Vector2( 1515.63, 18.5 )
@@ -683,7 +683,7 @@ position = Vector2( -527.723, 579.581 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 19 )
 animation = "Idle"
-frame = 12
+frame = 2
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -728,7 +728,7 @@ monitorable = false
 script = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
-position = Vector2( 180, -19.9995 )
+position = Vector2( 0, -20 )
 scale = Vector2( 1.31227, 1.31227 )
 shape = SubResource( 90 )
 
