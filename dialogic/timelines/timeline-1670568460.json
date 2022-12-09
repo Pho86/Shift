@@ -5,22 +5,22 @@
 			"set_theme": "theme-1669506712.cfg"
 		},
 		{
-			"character": "",
+			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Why is Shi in such a rush?[nw=2]"
+			"text": "[i]*HUFF PUFF*[/i] [nw=2]"
 		},
 		{
-			"character": "",
+			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "I should probably ask him about the photograph whenever I can. [nw=3]"
+			"portrait": "(Don't change)",
+			"text": "Why is Shi so fast?[nw=2]"
 		},
 		{
-			"character": "",
+			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "But I need to hurry up and catch up to him. [nw=3]"
+			"text": "I need to go faster.[nw=2]"
 		},
 		{
 			"event_id": "dialogic_022",
@@ -29,7 +29,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1669916121.json",
-		"name": "Level3"
+		"file": "timeline-1670568460.json",
+		"name": "Level3Add"
 	}
 }

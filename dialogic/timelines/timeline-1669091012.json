@@ -43,7 +43,7 @@
 		{
 			"animation": "heartbeat.gd",
 			"animation_length": 1,
-			"animation_repeat": 2,
+			"animation_repeat": 1,
 			"change_mirror_portrait": false,
 			"change_position": false,
 			"change_z_index": false,
@@ -66,7 +66,7 @@
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "HUFF HUFF"
+			"text": "[i]*HUFF PUFF*[/i]"
 		},
 		{
 			"character": "character-1669595483.json",
@@ -247,7 +247,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I pause and think. No name comes to mind."
+			"text": "I pause and think. Nothing comes to mind."
 		},
 		{
 			"character": "character-1669595483.json",

@@ -5,14 +5,6 @@
 			"set_theme": "theme-1669506712.cfg"
 		},
 		{
-			"definition": "1670561676-352",
-			"event_id": "dialogic_014",
-			"operation": "=",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "1"
-		},
-		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
 			"wait_seconds": 1,
@@ -29,18 +21,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "[color=#FFFFFF]Press WASD to move and SPACE in the air to shift[/color].[nw=5]"
-		},
-		{
-			"condition": "",
-			"definition": "1670561676-352",
-			"event_id": "dialogic_012",
-			"value": "1"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "diedie die"
 		},
 		{
 			"change_scene": "res://project/scenes/GameOver.tscn",
