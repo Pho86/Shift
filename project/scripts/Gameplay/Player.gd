@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
-const ShiftGhost = preload("res://project/scripts/Gameplay/ShiftGhost.tscn")
-const DashGhost = preload("res://project/scripts/Gameplay/DashGhost.tscn")
+#const ShiftGhost = preload("res://project/scripts/Gameplay/ShiftGhost.tscn")
+#const DashGhost = preload("res://project/scripts/Gameplay/DashGhost.tscn")
 const UP = Vector2(0,-1)
 const GRAVITY = 20
 const MAXFALLSPEED = 200
@@ -13,7 +13,7 @@ var canDash = true
 var motion = Vector2()
 var facingRight = true
 var direction = Vector2.ZERO
-onready var sprite = $AnimatedSprite
+#onready var sprite = $AnimatedSprite
 
 #func _create_ghost():
 #	var ghost: AnimatedSprite = ShiftGhost.instance()
@@ -63,7 +63,6 @@ func _physics_process(_delta):
 		
 		
 	if Input.is_action_just_pressed("dash") and canDash and !is_on_floor():
-#		motion.x = clamp(motion.x, 1000, MAXSPEED)
 		motion.x = clamp(motion.x, 1000, 0)
 		motion.x = direction.x * 5000
 		canDash = false
@@ -75,10 +74,6 @@ func _physics_process(_delta):
 			motion.y = -JUMPFORCE
 	if !is_on_floor():
 		$AnimatedSprite.play("Jump")
-#		if motion.y < 0:
-#			$AnimatedSprite.play("Jump")
-#		elif motion.y > 0:
-#			$AnimatedSprite.play("Jump")
 	
 	motion = move_and_slide(motion, UP)
 	

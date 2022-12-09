@@ -628,7 +628,7 @@ radius = 13.0
 [sub_resource type="Theme" id=1]
 
 [sub_resource type="RectangleShape2D" id=126]
-extents = Vector2( 1515.63, 18.5 )
+extents = Vector2( 1566.19, 18.5 )
 
 [sub_resource type="RectangleShape2D" id=130]
 extents = Vector2( 32, 252 )
@@ -711,6 +711,7 @@ position = Vector2( -2.72333, -11.4187 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 122 )
 animation = "Idle"
+frame = 7
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -779,7 +780,7 @@ position = Vector2( 72, 227 )
 script = ExtResource( 12 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 697.25, 650 )
+position = Vector2( 747.81, 684 )
 shape = SubResource( 126 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="DeadArea"]
@@ -796,7 +797,7 @@ tile_data = PoolIntArray( 589930, 3, 0, 589933, 3, 0, 589936, 3, 0, 589938, 3, 0
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( -272, 450 )
+position = Vector2( -302, 450 )
 shape = SubResource( 130 )
 
 [node name="EndArea" type="Area2D" parent="."]

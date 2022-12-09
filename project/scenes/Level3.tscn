@@ -623,10 +623,11 @@ radius = 24.0208
 radius = 13.0
 
 [sub_resource type="RectangleShape2D" id=125]
-extents = Vector2( 1430.09, 18.5 )
+extents = Vector2( 1846, 12.75 )
 
 [sub_resource type="CapsuleShape2D" id=127]
-height = 254.0
+radius = 13.0
+height = 464.0
 
 [sub_resource type="RectangleShape2D" id=126]
 extents = Vector2( 32, 363.375 )
@@ -648,7 +649,7 @@ position = Vector2( -2.72333, -11.4187 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 122 )
 animation = "Idle"
-frame = 5
+frame = 8
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -672,11 +673,11 @@ position = Vector2( 72, 227 )
 script = ExtResource( 6 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 143.906, 793 )
+position = Vector2( 364, 793 )
 shape = SubResource( 125 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 992.813, -525 )
+position = Vector2( 922, -530.75 )
 shape = SubResource( 125 )
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -699,7 +700,7 @@ monitorable = false
 script = ExtResource( 11 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( 24, 15 )
+position = Vector2( 0, -85 )
 shape = SubResource( 127 )
 
 [node name="Invis Wall" type="StaticBody2D" parent="."]

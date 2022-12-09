@@ -643,10 +643,6 @@ scale = Vector2( 0.762037, 0.762037 )
 texture = ExtResource( 7 )
 centered = false
 
-[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-visible = false
-motion_mirroring = Vector2( 1440, 0 )
-
 [node name="Countdown" type="Control" parent="ParallaxBackground"]
 margin_left = 8.0
 margin_top = 1.0
@@ -687,6 +683,7 @@ position = Vector2( -527.723, 579.581 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 19 )
 animation = "Idle"
+frame = 6
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -718,14 +715,12 @@ autostart = true
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
 cell_quadrant_size = 15
-show_collision = true
-compatibility_mode = true
 cell_clip_uv = true
 format = 1
 tile_data = PoolIntArray( 1966082, 0, 0, 1966083, 0, 0, 1966086, 0, 0, 1966089, 0, 0, 1966092, 0, 0, 1966095, 0, 0, 1966100, 0, 0, 1966101, 0, 0, 1966103, 0, 0, 1966104, 0, 0, 1966106, 0, 0, 1966107, 0, 0, 1966108, 0, 0, 1966109, 0, 0, 1966110, 0, 0, 1966111, 0, 0, 1966112, 0, 0, 1966113, 0, 0, 1966114, 0, 0, 1966115, 0, 0, 1966116, 0, 0, 1966117, 0, 0, 1966118, 0, 0, 1966119, 0, 0, 1966120, 0, 0, 1966121, 0, 0, 1966122, 0, 0, 1966123, 0, 0, 1966124, 0, 0, 1966125, 0, 0, 1966126, 0, 0, 1966127, 0, 0, 1966128, 0, 0, 1966129, 0, 0, 1966130, 0, 0, 1966131, 0, 0, 1966132, 0, 0, 1966133, 0, 0, 1966134, 0, 0, 1966135, 0, 0, 1966136, 0, 0, 2097273, 19, 0, 2162750, 3, 0, 2162752, 3, 0, 2162762, 3, 0, 2162765, 3, 0, 2162793, 3, 0, 2162796, 3, 0, 2162799, 3, 0, 2162802, 3, 0, 2162805, 3, 0, 2162808, 3, 0, 2162811, 3, 0, 2162814, 3, 0, 2162817, 3, 0, 2162820, 3, 0, 2162823, 3, 0, 2162826, 3, 0, 2228283, 3, 0, 2228304, 3, 0, 2228326, 3, 0, 2293810, 3, 0, 2293813, 3, 0, 2293816, 3, 0, 2293843, 3, 0, 2293846, 3, 0, 2293849, 3, 0, 2293852, 3, 0, 2293859, 3, 0, 2359343, 3, 0, 2424876, 3, 0, 2490409, 3, 0, 2621406, 3, 0, 2555942, 3, 0, 2686945, 3, 0, 2621475, 3, 0, 2752484, 3, 0, 2687008, 3, 0, 2818023, 3, 0, 2818026, 3, 0, 2818029, 3, 0, 2818032, 3, 0, 2818035, 3, 0, 2818038, 3, 0, 2818041, 3, 0, 2818044, 3, 0, 2818047, 3, 0, 2752514, 3, 0, 2752517, 3, 0, 2752520, 3, 0, 2752523, 3, 0, 2752526, 3, 0, 2752529, 3, 0, 2752532, 3, 0, 2752535, 3, 0, 2752538, 3, 0, 2752541, 3, 0 )
 
 [node name="EndArea" type="Area2D" parent="."]
-position = Vector2( 981, 649 )
+position = Vector2( 1965, 481 )
 scale = Vector2( 0.1, 0.1 )
 z_as_relative = false
 input_pickable = false
@@ -733,27 +728,27 @@ monitorable = false
 script = ExtResource( 9 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EndArea"]
-position = Vector2( 9870, -1420 )
+position = Vector2( 180, -19.9995 )
 scale = Vector2( 1.31227, 1.31227 )
 shape = SubResource( 90 )
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( 912, 594 )
+position = Vector2( 555, 215 )
 scale = Vector2( 0.392438, 0.392438 )
 stream = ExtResource( 8 )
 volume_db = -10.0
 autoplay = true
 
 [node name="DeadArea" type="Area2D" parent="."]
-position = Vector2( 72, 227 )
+position = Vector2( -108, 306 )
 script = ExtResource( 12 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 697.25, 650 )
+position = Vector2( 809, 663 )
 shape = SubResource( 92 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="DeadArea"]
-position = Vector2( 764.625, -407 )
+position = Vector2( 845, -407 )
 shape = SubResource( 92 )
 
 [node name="Dialog" parent="." instance=ExtResource( 15 )]

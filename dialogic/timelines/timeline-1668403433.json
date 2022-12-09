@@ -85,7 +85,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I wake up "
+			"text": "I wake up in an unfamiliar place. Trying to remember what happened."
 		},
 		{
 			"character": "character-1669595483.json",
@@ -96,7 +96,25 @@
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
-			"portrait": "(Don't change)",
+			"portrait": "",
+			"text": "What was I doing...?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I hear the echos of my own voice and decide to look around the room."
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_sad",
+			"text": "Where is this...?"
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_sad",
 			"text": "..."
 		},
 		{
@@ -112,8 +130,8 @@
 			"portrait_definition": "",
 			"position": {
 				"0": false,
-				"1": true,
-				"2": false,
+				"1": false,
+				"2": true,
 				"3": false,
 				"4": false
 			},
@@ -144,7 +162,8 @@
 		{
 			"animation": "heartbeat.gd",
 			"animation_length": 1,
-			"animation_repeat": 5,
+			"animation_repeat": 1,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_position": false,
 			"change_z_index": false,
@@ -167,19 +186,19 @@
 			"character": "character-1669694665.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "[wave amp=15 freq=5]BOO![/wave]"
+			"text": "[wave amp=15 freq=5][b]BOO!![/b][/wave]"
 		},
 		{
 			"animation": "headshake.gd",
 			"animation_length": 1.5,
-			"animation_repeat": 5,
+			"animation_repeat": 1,
 			"change_mirror_portrait": false,
 			"change_position": true,
 			"change_z_index": false,
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "lc_angry",
+			"portrait": "lc_shock",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -195,7 +214,7 @@
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_shock",
-			"text": "AHHHHH!!!"
+			"text": "[wave amp=10 freq=10]AHHHHH!!![/wave]"
 		},
 		{
 			"change_scene": "res://project/scenes/Level1.tscn",

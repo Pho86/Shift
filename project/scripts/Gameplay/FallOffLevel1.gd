@@ -9,7 +9,7 @@ func _ready():
 
 
 
-func _on_Area2D2_body_entered(_body: PhysicsBody2D):
+func _on_Area2D2_body_entered(_body: KinematicBody2D):
 	entered = true
 
 func _process(_delta):
