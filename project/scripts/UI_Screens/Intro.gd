@@ -1,12 +1,6 @@
 extends Node2D
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	$Transition.transitionin()
 	var new_dialog = Dialogic.start('Intro', 'false')
@@ -18,6 +12,3 @@ func dialogic_signal(argument):
 	if argument == 'transition_out':
 		$Transition.transition()
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
