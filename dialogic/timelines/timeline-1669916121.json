@@ -8,7 +8,19 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": ""
+			"text": "Why is Shi in a rush?[nw=3]"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I should probably ask him about the photograph whenever I can. [nw=5]"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But I need to hurry up and catch up to him. [nw=5]"
 		}
 	],
 	"metadata": {
