@@ -56,15 +56,6 @@
 		{
 			"change_scene": "res://project/scenes/Title Screen.tscn",
 			"event_id": "dialogic_041"
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "dwad"
 		}
 	],
 	"metadata": {
