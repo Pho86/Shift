@@ -1,6 +1,5 @@
-[gd_scene load_steps=141 format=2]
+[gd_scene load_steps=140 format=2]
 
-[ext_resource path="res://project/scripts/Gameplay/Timer.gd" type="Script" id=1]
 [ext_resource path="res://project/backgrounds/set1/background (18).png" type="Texture" id=2]
 [ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=3]
 [ext_resource path="res://project/sprites/Sumu/sumu_jump.png" type="Texture" id=4]
@@ -711,7 +710,7 @@ position = Vector2( -2.72333, -11.4187 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 122 )
 animation = "Idle"
-frame = 3
+frame = 11
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -748,8 +747,6 @@ margin_left = 8.0
 margin_top = 1.0
 margin_right = 1142.0
 margin_bottom = 334.0
-script = ExtResource( 1 )
-minutes = 1
 
 [node name="min" type="RichTextLabel" parent="ParallaxBackground/Countdown"]
 margin_left = 5.0
@@ -852,7 +849,6 @@ volume_db = -10.0
 autoplay = true
 
 [connection signal="timeout" from="Player/DeathTimer/Timer" to="Player/DeathTimer" method="_on_Timer_timeout"]
-[connection signal="timeout" from="ParallaxBackground/Countdown/Timer" to="ParallaxBackground/Countdown" method="_on_Timer_timeout"]
 [connection signal="body_entered" from="DeadArea" to="DeadArea" method="_on_Area2D2_body_entered"]
 [connection signal="body_entered" from="EndArea" to="EndArea" method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="EndArea" to="EndArea" method="_on_Area2D_body_exited"]

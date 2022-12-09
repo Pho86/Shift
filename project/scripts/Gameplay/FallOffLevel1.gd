@@ -1,8 +1,6 @@
 extends Area2D
 
-
 var entered = false
-
 
 func _on_Area2D2_body_entered(_body: KinematicBody2D):
 	entered = true

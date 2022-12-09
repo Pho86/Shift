@@ -1,0 +1,44 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1669506712.cfg"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=10 freq=10]AHHHHHHHH!!![nw=3][/wave]"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=10 freq=10]AHHHHHHHH!!![nw=3][/wave]"
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'll see you soon.[nw=3]"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"change_scene": "",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1670622672.json",
+		"name": "Level4"
+	}
+}

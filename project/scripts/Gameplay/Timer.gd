@@ -26,7 +26,6 @@ func _physics_process(_delta):
 		$min.set_text("0"+str(minutes))
 
 
-
 func _on_Timer_timeout():
 	dsec -= 10
 	if dsec < 10 and minutes <= 0 and seconds <= 0:
