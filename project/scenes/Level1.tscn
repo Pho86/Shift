@@ -1,4 +1,4 @@
-[gd_scene load_steps=137 format=2]
+[gd_scene load_steps=136 format=2]
 
 [ext_resource path="res://project/sprites/tiles/Tiles.tres" type="TileSet" id=1]
 [ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=2]
@@ -13,7 +13,6 @@
 [ext_resource path="res://project/scripts/Gameplay/PlayerTimer.gd" type="Script" id=11]
 [ext_resource path="res://project/scripts/Gameplay/FallOffLevel1.gd" type="Script" id=12]
 [ext_resource path="res://project/sprites/Sumu/sumu_dead.png" type="Texture" id=13]
-[ext_resource path="res://project/sprites/Sumu/dash_particle.png" type="Texture" id=14]
 [ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=15]
 
 [sub_resource type="Theme" id=122]
@@ -688,7 +687,6 @@ position = Vector2( -527.723, 579.581 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 19 )
 animation = "Idle"
-frame = 8
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -757,23 +755,6 @@ shape = SubResource( 92 )
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="DeadArea"]
 position = Vector2( 764.625, -407 )
 shape = SubResource( 92 )
-
-[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-position = Vector2( -638, 606 )
-emitting = false
-amount = 80
-texture = ExtResource( 14 )
-emission_shape = 1
-emission_sphere_radius = 7.25
-direction = Vector2( 5, 0 )
-spread = 180.0
-
-[node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
-position = Vector2( -685, 587 )
-amount = 30
-lifetime = 2.0
-speed_scale = 2.0
-explosiveness = 1.0
 
 [node name="Dialog" parent="." instance=ExtResource( 15 )]
 timeline = "timeline-1669506514.json"
