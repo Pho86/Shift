@@ -688,7 +688,7 @@ tracks/1/keys = {
 "times": PoolRealArray( 0 )
 }
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D2" type="Node2D"]
 
 [node name="Background(18)" type="Sprite" parent="."]
 position = Vector2( 888.445, 273 )
@@ -711,7 +711,6 @@ position = Vector2( -2.72333, -11.4187 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 122 )
 animation = "Idle"
-frame = 2
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
