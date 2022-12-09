@@ -2,10 +2,6 @@ extends CanvasLayer
 
 signal transitioned
 
-func _ready():
-	pass
-
-# Called when the node enters the scene tree for the first time.
 func transition():
 	$AnimationPlayer.play("fade_to_black")
 	
