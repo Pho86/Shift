@@ -23,10 +23,6 @@
 			"text": "[color=#FFFFFF]Press WASD to move and SPACE in the air to shift[/color].[nw=5]"
 		},
 		{
-			"change_scene": "res://project/scenes/GameOver.tscn",
-			"event_id": "dialogic_041"
-		},
-		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1.5
 		}

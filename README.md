@@ -1,5 +1,5 @@
 # Shift
-WIP Visual Novel/Game made with gdscript
+WIP Visual Novel/Game made with Godot using gdscript
 
 <blockquote>"It was just the 2 of us. We would play together. We would laugh with each other. We would make jokes with one another. With each year passing, feeling as if our time together would last forever. But that was until he disappeared and I was all alone...
 

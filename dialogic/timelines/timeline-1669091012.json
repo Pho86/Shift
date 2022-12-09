@@ -12,7 +12,7 @@
 			"event_name": "BackgroundMusic",
 			"fade_length": 5,
 			"file": "res://project/music/Dark Atmosphere to Synth.wav",
-			"volume": -10
+			"volume": -15
 		},
 		{
 			"background": "res://project/backgrounds/set1/background (18).png",
@@ -148,7 +148,7 @@
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_shock",
-			"text": "AHHHHHHH!!!"
+			"text": "[wave amp=10 freq=10]AHHHHHHH!!![/wave]"
 		},
 		{
 			"animation": "bounce.gd",
@@ -228,14 +228,47 @@
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
-			"portrait": "Characters-6",
-			"text": "My name is Shi and I'm here to help you. What is your name?"
+			"portrait": "Characters-5",
+			"text": "My name is Shi and I'm here to help you."
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What is your name?"
 		},
 		{
 			"character": "character-1669595483.json",
-			"event_id": "dialogic_001",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
 			"portrait": "lc_worry",
-			"text": "My name is..."
+			"question": "My name is..."
+		},
+		{
+			"choice": "...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"character": "character-1669595483.json",
