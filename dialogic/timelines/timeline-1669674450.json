@@ -61,7 +61,7 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I'm so smart! Shi you're an idiot! "
+			"text": "I'm the best! Shi you're an idiot! "
 		},
 		{
 			"animation": "[No Animation]",
@@ -190,6 +190,12 @@
 			"text": "What!?"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		},
+		{
 			"animation": "[No Animation]",
 			"animation_length": 1,
 			"animation_wait": true,
@@ -239,7 +245,7 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "What's this?"
+			"text": "What's this? ![image](../project/button.png)"
 		},
 		{
 			"character": "character-1668476923.json",

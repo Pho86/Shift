@@ -296,7 +296,7 @@
 		},
 		{
 			"animation": "heartbeat.gd",
-			"animation_length": 1,
+			"animation_length": 1.5,
 			"change_mirror_portrait": false,
 			"change_position": false,
 			"change_z_index": false,
@@ -346,7 +346,19 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-6",
-			"text": "Sorry..."
+			"text": "Oh, sorry..."
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You don't have any memories?"
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_neutral",
+			"text": "Yes."
 		},
 		{
 			"character": "character-1668476950.json",
@@ -431,13 +443,13 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "Okay Sumu, let's get out of this place first and then we can continue talking."
+			"text": "Okay Sumu, let's get out of this place first and then we can try to get your memories back."
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-6",
-			"text": "We need to get to the other side."
+			"text": "First of all, we need to get to the other side."
 		},
 		{
 			"background": "",

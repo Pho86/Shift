@@ -73,6 +73,12 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
+			"text": "My heart was broken."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
 			"text": "All I wanted was another second with them."
 		},
 		{
@@ -85,7 +91,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "It's been 4 decades since he had disappeared."
+			"text": "This was the 4th decade since he had disappeared."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My memories with him were beautiful, beloved, unforgettable... and suffocating."
 		},
 		{
 			"character": "character-1669595483.json",
