@@ -18,7 +18,7 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 0.663194, -0.25, 0, 0.25, 0, 0.7, -0.25, 0, 0.25, 0, 0.663, -0.25, 0, 0.25, 0 ),
+"points": PoolRealArray( 0.745334, -0.25, 0, 0.25, 0, 0.78, -0.25, 0, 0.25, 0, 0.745, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0, 15, 30 )
 }
 tracks/1/type = "bezier"
@@ -28,42 +28,30 @@ tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"points": PoolRealArray( 0.663194, -0.25, 0, 0.25, 0, 0.7, -0.25, 0, 0.25, 0, 0.663, -0.25, 0, 0.25, 0 ),
+"points": PoolRealArray( 0.745334, -0.25, 0, 0.25, 0, 0.78, -0.25, 0, 0.25, 0, 0.745, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0, 15, 30 )
 }
 
 [sub_resource type="Animation" id=2]
 length = 0.001
-tracks/0/type = "value"
-tracks/0/path = NodePath("Tunnel3:texture")
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Tunnel3:scale:x")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ ExtResource( 3 ) ]
+"points": PoolRealArray( 0.745334, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
 }
 tracks/1/type = "bezier"
-tracks/1/path = NodePath("Tunnel3:scale:x")
+tracks/1/path = NodePath("Tunnel3:scale:y")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"points": PoolRealArray( 0.663194, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0 )
-}
-tracks/2/type = "bezier"
-tracks/2/path = NodePath("Tunnel3:scale:y")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"points": PoolRealArray( 0.663194, -0.25, 0, 0.25, 0 ),
+"points": PoolRealArray( 0.745334, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0 )
 }
 
@@ -76,15 +64,15 @@ __meta__ = {
 [node name="Transition" parent="." instance=ExtResource( 6 )]
 layer = 0
 
-[node name="Tunnel3" type="Sprite" parent="."]
-position = Vector2( 611, 384 )
-scale = Vector2( 0.663194, 0.663194 )
-texture = ExtResource( 3 )
-
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
 volume_db = -10.183
 autoplay = true
+
+[node name="Tunnel3" type="Sprite" parent="."]
+position = Vector2( 607, 352 )
+scale = Vector2( 0.745334, 0.745334 )
+texture = ExtResource( 3 )
 
 [node name="Zooming" type="AnimationPlayer" parent="."]
 autoplay = "Background"

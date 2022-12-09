@@ -59,6 +59,7 @@ margin_right = -3.0
 timeline = "timeline-1668403433.json"
 
 [node name="Background(15)" type="Sprite" parent="."]
+visible = false
 position = Vector2( 693, 385 )
 scale = Vector2( 0.720371, 0.720371 )
 texture = ExtResource( 2 )

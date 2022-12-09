@@ -61,7 +61,7 @@
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "HUFF"
+			"text": "HUFF HUFF"
 		},
 		{
 			"character": "character-1669595483.json",
@@ -224,25 +224,103 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-6",
-			"text": "My name is Shi and I'm here to help you."
+			"text": "My name is Shi and I'm here to help you. What is your name?"
 		},
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_worry",
-			"text": "I..."
+			"text": "My name is..."
 		},
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
-			"portrait": "lc_worry",
-			"text": "I dont remember my name..."
+			"portrait": "lc_sad",
+			"text": "Is..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I pause and think. No name comes to mind."
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_sad",
+			"text": "I actually dont remember my name..."
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "Let's call you Sumu for now."
+			"text": "Why not?"
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "lc_angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_angry",
+			"text": "Before you rudely scared me, I just woke up with no memories."
+		},
+		{
+			"animation": "jello.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-6",
+			"text": "Sorry..."
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-5",
+			"text": "But you remind me of someone I used to know called Su."
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-6",
+			"text": "Would it be okay if I called you Sumu?"
 		},
 		{
 			"animation": "4-fade_out.gd",
@@ -308,14 +386,14 @@
 		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "lc_worry",
+			"portrait": "lc_blush",
 			"text": "I... like that name..."
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "Let's get out of this place first."
+			"text": "Okay Sumu, let's get out of this place first and then we can continue talking."
 		},
 		{
 			"character": "character-1668476950.json",

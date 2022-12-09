@@ -82,6 +82,24 @@
 			"text": "Where am I?"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I wake up "
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why am I here...?"
+		},
+		{
+			"character": "character-1669595483.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "..."
+		},
+		{
 			"animation": "[No Animation]",
 			"animation_length": 1,
 			"change_mirror_portrait": false,
@@ -101,18 +119,6 @@
 			},
 			"type": 2,
 			"z_index": 0
-		},
-		{
-			"character": "character-1669595483.json",
-			"event_id": "dialogic_001",
-			"portrait": "(Don't change)",
-			"text": "..."
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": ""
 		},
 		{
 			"animation": "back_in_right.gd",
