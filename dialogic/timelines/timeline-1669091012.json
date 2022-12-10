@@ -6,15 +6,6 @@
 			"use_default_slot": true
 		},
 		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 5,
-			"file": "res://project/music/Dark Atmosphere to Synth.wav",
-			"volume": -15
-		},
-		{
 			"background": "res://project/backgrounds/set1/background (18).png",
 			"event_id": "dialogic_021",
 			"fade_duration": 1
@@ -352,7 +343,7 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You don't have any memories?"
+			"text": "You don't have any of your memories?"
 		},
 		{
 			"character": "character-1669595483.json",
@@ -364,13 +355,13 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "But you remind me of someone I used to know called Su."
+			"text": "You remind me of someone I used to know called Su."
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-6",
-			"text": "Would it be okay if I called you Sumu?"
+			"text": "So, would it be okay if I called you Sumu?"
 		},
 		{
 			"animation": "4-fade_out.gd",

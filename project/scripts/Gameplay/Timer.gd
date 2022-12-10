@@ -29,6 +29,7 @@ func _physics_process(_delta):
 func _on_Timer_timeout():
 	dsec -= 10
 	if dsec < 10 and minutes <= 0 and seconds <= 0:
+		# warning-ignore:return_value_discarded
 		get_tree().change_scene("res://project/scenes/GameOver.tscn")
 func on_timeout():
 	pass

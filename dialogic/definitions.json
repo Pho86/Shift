@@ -8,6 +8,12 @@
 			"name": "currentlevel",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1670633090-785",
+			"name": "photograph",
+			"type": 0,
+			"value": "false"
 		}
 	]
 }
