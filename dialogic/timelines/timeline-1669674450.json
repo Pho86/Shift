@@ -178,7 +178,7 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "(Don't change)",
-			"text": "What!?"
+			"text": "What?!"
 		},
 		{
 			"character": "character-1668476923.json",
@@ -215,12 +215,6 @@
 			"text": "..."
 		},
 		{
-			"character": "character-1668476923.json",
-			"event_id": "dialogic_001",
-			"portrait": "lc_angry",
-			"text": "Hello?! Answer my question."
-		},
-		{
 			"animation": "heartbeat.gd",
 			"animation_length": 1,
 			"change_mirror_portrait": false,
@@ -244,8 +238,14 @@
 		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
+			"portrait": "lc_angry",
+			"text": "Hello?! Answer my question."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": ""
+			"text": "I wait for a response from Shi, but nothing comes."
 		},
 		{
 			"character": "character-1668476950.json",
@@ -268,7 +268,7 @@
 		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "lc_worry",
 			"text": "It.."
 		},
 		{
@@ -325,7 +325,7 @@
 		},
 		{
 			"animation": "slide_out_right.gd",
-			"animation_length": 2,
+			"animation_length": 1.5,
 			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_position": false,
@@ -349,13 +349,34 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Shi shifts away."
+			"text": "Shi shifts away and I can no longer see him."
 		},
 		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "What?"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
 		},
 		{
 			"character": "",
@@ -446,11 +467,11 @@
 		},
 		{
 			"event_id": "dialogic_023",
-			"hide_dialogbox": true,
+			"hide_dialogbox": false,
 			"wait_seconds": 1.5
 		},
 		{
-			"change_scene": "",
+			"change_scene": "res://project/scenes/Level3.tscn",
 			"event_id": "dialogic_041"
 		}
 	],
