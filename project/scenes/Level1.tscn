@@ -683,6 +683,7 @@ position = Vector2( -527.723, 579.581 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 19 )
 animation = "Idle"
+frame = 7
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -731,13 +732,6 @@ position = Vector2( 0, -20 )
 scale = Vector2( 1.31227, 1.31227 )
 shape = SubResource( 90 )
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( 555, 215 )
-scale = Vector2( 0.392438, 0.392438 )
-stream = ExtResource( 8 )
-volume_db = -10.0
-autoplay = true
-
 [node name="DeadArea" type="Area2D" parent="."]
 position = Vector2( -108, 306 )
 script = ExtResource( 12 )
@@ -752,6 +746,11 @@ shape = SubResource( 92 )
 
 [node name="Dialog" parent="." instance=ExtResource( 15 )]
 timeline = "timeline-1669506514.json"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+volume_db = -10.0
+autoplay = true
 
 [connection signal="timeout" from="ParallaxBackground/Countdown/Timer" to="ParallaxBackground/Countdown" method="_on_Timer_timeout"]
 [connection signal="timeout" from="Player/DeathTimer/Timer" to="Player/DeathTimer" method="_on_Timer_timeout"]

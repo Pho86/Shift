@@ -25,7 +25,7 @@ tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"points": PoolRealArray( 315, -0.25, 0, 0.25, 0, 230, -0.25, 0, 0.25, 0 ),
+"points": PoolRealArray( 350, -0.25, 0, 0.25, 0, 279, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0.5, 2 )
 }
 tracks/2/type = "bezier"
@@ -262,9 +262,9 @@ anims/RESET = SubResource( 2 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_left = -54.0
-margin_top = -18.0
+margin_top = -14.0
 margin_right = 1155.0
-margin_bottom = 849.0
+margin_bottom = 853.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="Continue" type="Sprite" parent="."]

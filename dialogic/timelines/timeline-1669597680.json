@@ -1,15 +1,6 @@
 {
 	"events": [
 		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 1,
-			"file": "res://project/music/The Story Continues.wav",
-			"volume": -20
-		},
-		{
 			"background": "res://project/backgrounds/Rooftop.png",
 			"event_id": "dialogic_021"
 		},
@@ -97,19 +88,19 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "My memories with him were beautiful, beloved, unforgettable... and at the same time suffocating."
+			"text": "My memories with him were beautiful, beloved, and unforgettable... yet at the same time suffocating."
 		},
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "And so... I've waited all this time for him..."
+			"text": "I've waited all this time for him..."
 		},
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[speed=7]Is it..."
+			"text": "[speed=6]Is it..."
 		},
 		{
 			"background": "res://project/backgrounds/Street lamp_zoom.png",
