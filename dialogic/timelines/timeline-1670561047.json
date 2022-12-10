@@ -1,15 +1,6 @@
 {
 	"events": [
 		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 2,
-			"file": "res://project/music/Mystery Unsolved.wav",
-			"volume": -10
-		},
-		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
 			"wait_seconds": 0.5

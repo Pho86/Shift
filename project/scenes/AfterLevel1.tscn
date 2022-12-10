@@ -19,8 +19,7 @@ margin_right = 1128.0
 margin_bottom = 798.0
 color = Color( 0, 0, 0, 1 )
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( 548, 388 )
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 1 )
 volume_db = -10.0
 autoplay = true

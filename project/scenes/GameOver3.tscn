@@ -2,17 +2,19 @@
 
 [ext_resource path="res://addons/dialogic/Dialog.tscn" type="PackedScene" id=1]
 [ext_resource path="res://project/backgrounds/BlueRoseSonata Blood FX Pack/bloodsplat.png" type="Texture" id=2]
-[ext_resource path="res://project/music/Dark Atmosphere to Synth.wav" type="AudioStream" id=3]
+[ext_resource path="res://project/music/Mystery Unsolved.wav" type="AudioStream" id=3]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Dialog" parent="." instance=ExtResource( 1 )]
 timeline = "timeline-1670561047.json"
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource( 3 )
-
 [node name="Bloodsplat" type="Sprite" parent="."]
 position = Vector2( 705, 372 )
 scale = Vector2( 1.1, 1.1 )
 texture = ExtResource( 2 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -12.0
+autoplay = true

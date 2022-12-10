@@ -30,3 +30,5 @@ Some of the assets in this projects were created by:
 * Evil Pumpkin Company
 * Lornn
 * Tim Beek
+
+special thanks to Rabbitto for voice acting the intro

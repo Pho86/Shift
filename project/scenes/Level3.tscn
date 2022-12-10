@@ -653,7 +653,7 @@ position = Vector2( -2.72333, -11.4187 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 122 )
 animation = "Idle"
-frame = 15
+frame = 13
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -739,7 +739,7 @@ shape = SubResource( 126 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 12 )
-volume_db = -10.0
+volume_db = -11.0
 autoplay = true
 
 [connection signal="body_entered" from="DeadArea" to="DeadArea" method="_on_Area2D2_body_entered"]
