@@ -297,7 +297,7 @@ tracks/13/keys = {
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
-volume_db = -10.0
+volume_db = -12.0
 autoplay = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

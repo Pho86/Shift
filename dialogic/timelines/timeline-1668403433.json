@@ -13,7 +13,7 @@
 			"event_name": "BackgroundMusic",
 			"fade_length": 2,
 			"file": "res://project/music/Dark Atmosphere to Synth.wav",
-			"volume": -10
+			"volume": -11
 		},
 		{
 			"event_id": "dialogic_023",

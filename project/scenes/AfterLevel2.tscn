@@ -6,12 +6,6 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( 513, 387 )
-stream = ExtResource( 3 )
-volume_db = -5.949
-autoplay = true
-
 [node name="Dialog" parent="." instance=ExtResource( 2 )]
 margin_left = 517.151
 margin_top = 378.0
@@ -23,3 +17,8 @@ timeline = "timeline-1669674450.json"
 position = Vector2( 519, 384 )
 scale = Vector2( 0.616382, 0.718056 )
 texture = ExtResource( 1 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -10.0
+autoplay = true
