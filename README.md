@@ -31,4 +31,4 @@ Some of the assets in this projects were created by:
 * Lornn
 * Tim Beek
 
-special thanks to rabbit for voice acting the intro
+special thanks to rabbit for voice acting intro

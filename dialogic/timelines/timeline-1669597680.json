@@ -78,7 +78,7 @@
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
 			"file": "res://project/va/sumu1.wav",
-			"volume": 10
+			"volume": 12
 		},
 		{
 			"character": "character-1669595483.json",
@@ -104,7 +104,7 @@
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
 			"file": "res://project/va/sumu2.wav",
-			"volume": 10
+			"volume": 12
 		},
 		{
 			"character": "character-1669595483.json",
@@ -118,7 +118,7 @@
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
 			"file": "res://project/va/sumu3.wav",
-			"volume": 10
+			"volume": 12
 		},
 		{
 			"character": "character-1669595483.json",
@@ -137,7 +137,7 @@
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
 			"file": "res://project/va/sumu4.wav",
-			"volume": 10
+			"volume": 12
 		},
 		{
 			"character": "character-1669595483.json",
@@ -176,7 +176,7 @@
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
 			"file": "res://project/va/sumu5.wav",
-			"volume": 8
+			"volume": 12
 		},
 		{
 			"character": "character-1669595483.json",
@@ -195,7 +195,7 @@
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
 			"file": "res://project/va/sumu6.wav",
-			"volume": 7
+			"volume": 12
 		},
 		{
 			"character": "character-1669595483.json",
