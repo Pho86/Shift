@@ -23,7 +23,6 @@ var direction = Vector2.ZERO
 
 func _ready():
 	direction = Vector2(1,0)
-	pass
 
 
 func _physics_process(_delta):
@@ -63,9 +62,9 @@ func _physics_process(_delta):
 		
 
 	if Input.is_action_just_pressed("dash") and canDash and !is_on_floor():
-		motion.x = clamp(motion.x, 1000, 0)
-		motion.x = direction.x * 5000
+		motion.x = direction.x * 2500
 		canDash = false
+		
 		
 	if is_on_floor():
 		canDash = true

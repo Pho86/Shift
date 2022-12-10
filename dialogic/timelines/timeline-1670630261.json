@@ -7,6 +7,11 @@
 			"text": "[i]DISCLAIMER: THIS IS A PREVIEW OF ACT 2[/i][nw=4]"
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.5
+		},
+		{
 			"animation": "back_in_down.gd",
 			"animation_length": 0.5,
 			"change_mirror_portrait": false,
@@ -106,7 +111,7 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_worry",
-			"text": "Go right go right..."
+			"text": "[b]Go right go right go right...[/b]"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -131,7 +136,7 @@
 		},
 		{
 			"animation": "4-fade_out.gd",
-			"animation_length": 0.8,
+			"animation_length": 1,
 			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
