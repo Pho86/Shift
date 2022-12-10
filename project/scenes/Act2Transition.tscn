@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://project/Shift.png" type="Texture" id=1]
-[ext_resource path="res://project/backgrounds/Street lamp.png" type="Texture" id=2]
+[ext_resource path="res://project/backgrounds/Hallway 3.png" type="Texture" id=2]
 [ext_resource path="res://project/text/Act2.png" type="Texture" id=3]
-[ext_resource path="res://project/scripts/UI_Screens/Act1AnimationDone.gd" type="Script" id=4]
+[ext_resource path="res://project/scripts/UI_Screens/Act2AnimationDone.gd" type="Script" id=4]
 [ext_resource path="res://project/music/Surveillance.wav" type="AudioStream" id=5]
 
 [sub_resource type="Animation" id=1]
@@ -128,6 +128,26 @@ tracks/11/enabled = true
 tracks/11/keys = {
 "points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 2.6, 3.6, 6, 7 )
+}
+tracks/12/type = "bezier"
+tracks/12/path = NodePath("../Act2:position:x")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"points": PoolRealArray( 790, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/13/type = "bezier"
+tracks/13/path = NodePath("../Act2:position:y")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"points": PoolRealArray( 651, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
 }
 
 [sub_resource type="Animation" id=2]

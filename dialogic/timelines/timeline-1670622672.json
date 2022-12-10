@@ -5,12 +5,6 @@
 			"set_theme": "theme-1669506712.cfg"
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "[i]DISCLAIMER: THIS IS A PREVIEW OF ACT 2.[/i][nw=5]"
-		},
-		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -19,19 +13,19 @@
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Relax! That drop will lead you to the sewers. Just remember to [b]always go right.[/b][nw=4]"
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "We can meet again after you get out.[nw=3]"
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "I'll see you soon, my—[nw=1]"
 		},
 		{
@@ -46,7 +40,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_scene": "res://project/scenes/AfterLevel4.tscn",
+			"change_scene": "res://project/scenes/Act2Transition.tscn",
 			"event_id": "dialogic_041"
 		}
 	],

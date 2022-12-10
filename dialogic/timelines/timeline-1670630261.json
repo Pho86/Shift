@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]DISCLAIMER: THIS IS A PREVIEW OF ACT 2.[/i][nw=5]"
+		},
+		{
 			"animation": "back_in_down.gd",
 			"animation_length": 0.5,
 			"change_mirror_portrait": false,
