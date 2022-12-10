@@ -310,7 +310,7 @@
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_angry",
-			"text": "Before you rudely scared me, I just woke up with no memories."
+			"text": "Before you rudely scared me, I just woke up and had no recollection of anything."
 		},
 		{
 			"animation": "jello.gd",
@@ -343,13 +343,19 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You don't have any of your memories?"
+			"text": "So you don't even know your name?"
 		},
 		{
 			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_neutral",
 			"text": "Yes."
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "Characters-6",
+			"text": "You..."
 		},
 		{
 			"character": "character-1668476950.json",
@@ -428,6 +434,12 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_blush",
+			"text": "Sumu..."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_blush2",
 			"text": "I... like that name..."
 		},
 		{

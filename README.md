@@ -9,7 +9,7 @@ All I wanted was another second with them. I... just wanted to see them again."<
 <p><strong>Description: </strong>Shift through dimensions with the girl who lost her memory, Sumu and a ghost who saved her from dying, Shi. Regain your lost memories and figure out who Shi truly is.<br></p>
 
 ## TODO
-* finish Chapter 1's story
+* finish Chapter 2's story
 * improve player movement (buggy as of right now)
 * add dash animations
 * add obstacles for levels
@@ -21,4 +21,13 @@ All I wanted was another second with them. I... just wanted to see them again."<
 
 ## Complete
 * add shi (ghost) sprite
+* finish Chapter 1's story
 * add more music
+
+
+### Credits
+Some of the assets are created by:
+* Evil Pumpkin Company
+* Lornn
+* Tim Beek
+* 

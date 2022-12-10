@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]*DISCLAIMER: THIS IS A PREVIEW OF ACT 2*[/i][nw=4]"
+		},
+		{
 			"animation": "back_in_down.gd",
 			"animation_length": 0.5,
 			"change_mirror_portrait": false,
@@ -30,23 +36,61 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_sad",
-			"text": "OW!!"
+			"text": "OWWWW!!!"
 		},
 		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "DAN"
-		},
-		{
-			"background": "res://project/backgrounds/Tunnel 3.png",
-			"event_id": "dialogic_021"
+			"text": "THAT HURT!!!"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": ""
+			"text": "I groan in pain and look around the area."
+		},
+		{
+			"background": "res://project/backgrounds/Tunnel 3.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1.5
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "Shi warned me this area is a sewer and that I need to always [b]stay on the right.[/b]"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I need to keep in mind of that."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "I wonder what Shi is doing now."
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "Is he worried about me?"
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_scene": "res://project/scenes/ToBeContinued.tscn",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

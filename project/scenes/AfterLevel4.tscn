@@ -5,10 +5,9 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( 527, 389 )
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 2 )
-volume_db = -5.0
+volume_db = -10.0
 autoplay = true
 
 [node name="ColorRect" type="ColorRect" parent="."]
