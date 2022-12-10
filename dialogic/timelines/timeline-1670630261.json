@@ -4,7 +4,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[i]*DISCLAIMER: THIS IS A PREVIEW OF ACT 2*[/i][nw=4]"
+			"text": "[i]DISCLAIMER: THIS IS A PREVIEW OF ACT 2[/i][nw=4]"
 		},
 		{
 			"animation": "back_in_down.gd",
@@ -56,16 +56,66 @@
 			"fade_duration": 1.5
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I need to get myself back on track and not get lost here. Shi needs me."
+		},
+		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_worry",
-			"text": "Shi warned me this area is a sewer and that I need to always [b]stay on the right.[/b]"
+			"text": "Shi said this area is the sewers and that I need to always [b]stay on the right.[/b]"
 		},
 		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "I need to keep in mind of that."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "I need to make sure I go"
+		},
+		{
+			"choice": "Left.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, I need to [b]go right[/b], what am I thinking. Am I stupid?"
+		},
+		{
+			"choice": "Right.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "Go right go right..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "Hmm..."
 		},
 		{
 			"character": "character-1668476923.json",
@@ -80,13 +130,34 @@
 			"text": "Is he worried about me?"
 		},
 		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 0.8,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
 			"background": "",
 			"event_id": "dialogic_021"
 		},
 		{
 			"event_id": "dialogic_023",
 			"hide_dialogbox": true,
-			"wait_seconds": 1
+			"wait_seconds": 1.5
 		},
 		{
 			"change_scene": "res://project/scenes/ToBeContinued.tscn",

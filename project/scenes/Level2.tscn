@@ -1,4 +1,4 @@
-[gd_scene load_steps=140 format=2]
+[gd_scene load_steps=139 format=2]
 
 [ext_resource path="res://project/backgrounds/set1/background (18).png" type="Texture" id=2]
 [ext_resource path="res://project/sprites/Sumu/sumu_spritesheet.png" type="Texture" id=3]
@@ -624,8 +624,6 @@ radius = 24.0208
 [sub_resource type="CapsuleShape2D" id=124]
 radius = 13.0
 
-[sub_resource type="Theme" id=1]
-
 [sub_resource type="RectangleShape2D" id=126]
 extents = Vector2( 1566.19, 18.5 )
 
@@ -710,7 +708,7 @@ position = Vector2( -2.72333, -11.4187 )
 scale = Vector2( 0.190789, 0.190789 )
 frames = SubResource( 122 )
 animation = "Idle"
-frame = 2
+frame = 12
 speed_scale = 0.8
 playing = true
 offset = Vector2( 8.377, 15.298 )
@@ -738,38 +736,6 @@ script = ExtResource( 6 )
 seconds = 10
 
 [node name="Timer" type="Timer" parent="Player/DeathTimer"]
-autostart = true
-
-[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
-
-[node name="Countdown" type="Control" parent="ParallaxBackground"]
-margin_left = 8.0
-margin_top = 1.0
-margin_right = 1142.0
-margin_bottom = 334.0
-
-[node name="min" type="RichTextLabel" parent="ParallaxBackground/Countdown"]
-margin_left = 5.0
-margin_top = 21.0
-margin_right = 45.0
-margin_bottom = 61.0
-theme = SubResource( 1 )
-text = "00"
-
-[node name="sec" type="RichTextLabel" parent="ParallaxBackground/Countdown"]
-margin_left = 23.0
-margin_top = 21.0
-margin_right = 63.0
-margin_bottom = 61.0
-text = "00"
-
-[node name="dsec" type="RichTextLabel" parent="ParallaxBackground/Countdown"]
-margin_left = 41.0
-margin_top = 21.0
-margin_right = 81.0
-margin_bottom = 61.0
-
-[node name="Timer" type="Timer" parent="ParallaxBackground/Countdown"]
 autostart = true
 
 [node name="DeadArea" type="Area2D" parent="."]

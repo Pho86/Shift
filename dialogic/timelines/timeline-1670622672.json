@@ -14,19 +14,19 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Relax Sumu. That drop will lead you to the sewers. Just my remember my words.[nw=4]"
+			"text": "Sumu relax. That drop leads you to the sewers.[nw=4]"
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[b]Always go right.[/b][nw=4]"
+			"text": "Just my remember my words. [b]Always go right.[/b][nw=4]"
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "We can meet again after you get out.[nw=3]"
+			"text": "We will meet again after you get out.[nw=3]"
 		},
 		{
 			"character": "character-1668476950.json",
@@ -38,7 +38,7 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[wave amp=10 freq=10]AHHHH!!! IM SCARED!!! HELP ME!!![nw=3][/wave]"
+			"text": "[wave amp=10 freq=10]AHHHHHH!!! IM SCARED!!! HELP ME!!![nw=3][/wave]"
 		},
 		{
 			"event_id": "dialogic_023",

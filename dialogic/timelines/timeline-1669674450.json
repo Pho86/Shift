@@ -29,7 +29,7 @@
 		{
 			"animation": "tada.gd",
 			"animation_length": 1.5,
-			"animation_repeat": 2,
+			"animation_repeat": 1,
 			"change_mirror_portrait": false,
 			"change_position": false,
 			"change_z_index": false,
@@ -51,8 +51,8 @@
 		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "I'm the best! Shi you're an idiot! "
+			"portrait": "lc_sarcastic",
+			"text": "MUAHAHAHAHA!!! I'm the best! Shi you're an idiot! "
 		},
 		{
 			"animation": "[No Animation]",
@@ -257,7 +257,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You realize Shi is staring at something on the ground and go to pick it up."
+			"text": "I realize Shi is staring at something on the ground and go to pick it up."
 		},
 		{
 			"character": "character-1668476923.json",
@@ -294,6 +294,12 @@
 			"event_id": "dialogic_001",
 			"portrait": "lc_frown",
 			"text": "It... kind of looks like a picture of two people?"
+		},
+		{
+			"character": "character-1668476950.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
 		},
 		{
 			"character": "character-1668476950.json",
@@ -349,7 +355,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Shi shifts away and I can no longer see him."
+			"text": "Shi shifts away and is no longer in sight."
 		},
 		{
 			"character": "character-1668476923.json",
@@ -398,7 +404,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I decide to not listen to Shi and put the photograph in your pocket and start to run after Shi."
+			"text": "I decide to not listen to Shi and put the photograph in your pocket and start to chase after Shi."
 		},
 		{
 			"definition": "1670633090-785",
@@ -419,7 +425,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I decide to listen to Shi and leave the photograph there."
+			"text": "I decide to listen to Shi and leave the photograph there and start to chase after Shi."
 		},
 		{
 			"definition": "1670633090-785",
@@ -431,6 +437,12 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_worry",
+			"text": "Wait for me Shi!"
 		},
 		{
 			"animation": "slide_out_right.gd",
