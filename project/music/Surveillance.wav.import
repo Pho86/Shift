@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Surveillance.wav-79fe3a0e87e48ea59e5b96278e534b4b.sample"
+
+[deps]
+
+source_file="res://project/music/Surveillance.wav"
+dest_files=[ "res://.import/Surveillance.wav-79fe3a0e87e48ea59e5b96278e534b4b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -14,19 +14,19 @@
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "RELAX! That drop leads to the sewers. Just remember to always go right.[nw=4]"
+			"text": "RELAX! That drop leads to the sewers. Just remember to [b]always go right.[/b][nw=4]"
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "We can meet each other after you get out.[nw=3]"
+			"text": "We can meet again after you get out.[nw=3]"
 		},
 		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I'll see you soon, my—[nw=3]"
+			"text": "I'll see you soon, my—[nw=1]"
 		},
 		{
 			"character": "character-1668476923.json",

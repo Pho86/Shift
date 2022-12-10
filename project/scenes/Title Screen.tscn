@@ -83,12 +83,12 @@ anims/RESET = SubResource( 2 )
 
 [node name="CenterContainer" type="CenterContainer" parent="CanvasLayer"]
 margin_left = 10.0
-margin_top = 128.0
+margin_top = 183.0
 margin_right = 1031.0
-margin_bottom = 895.0
+margin_bottom = 950.0
 
 [node name="Shift" type="Sprite" parent="CanvasLayer/CenterContainer"]
-position = Vector2( 515, 155 )
+position = Vector2( 515, 57 )
 scale = Vector2( 0.415137, 0.415137 )
 texture = ExtResource( 2 )
 

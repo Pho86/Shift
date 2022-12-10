@@ -1,9 +1,57 @@
 {
 	"events": [
-
+		{
+			"animation": "back_in_down.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "lc_angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]*THUD*[/i]"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "lc_sad",
+			"text": "OW!!"
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "DAN"
+		},
+		{
+			"background": "res://project/backgrounds/Tunnel 3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1670630261.json"
+		"file": "timeline-1670630261.json",
+		"name": "AfterLevel4"
 	}
 }

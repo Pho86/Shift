@@ -27,7 +27,7 @@
 			"text": "How many days has it been? How many years? How many decades?"
 		},
 		{
-			"character": "",
+			"character": "character-1669595483.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "How long have I waited?"
@@ -36,7 +36,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "When will this journey end?"
+			"text": "When will my journey end?"
 		},
 		{
 			"event_id": "dialogic_023",

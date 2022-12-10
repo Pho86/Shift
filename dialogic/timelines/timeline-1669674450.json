@@ -6,15 +6,6 @@
 			"use_default_slot": true
 		},
 		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 1,
-			"file": "res://project/music/Mystery Unsolved.wav",
-			"volume": -10
-		},
-		{
 			"animation": "2-fade_in_up.gd",
 			"animation_length": 1,
 			"animation_wait": true,
@@ -190,10 +181,10 @@
 			"text": "What!?"
 		},
 		{
-			"character": "",
+			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": ""
+			"portrait": "lc_angry",
+			"text": "How am I stupid?!"
 		},
 		{
 			"animation": "[No Animation]",
@@ -226,8 +217,35 @@
 		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "lc_worry",
-			"text": "What's wrong?"
+			"portrait": "lc_angry",
+			"text": "Hello?! Answer my question."
+		},
+		{
+			"animation": "heartbeat.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1668476923.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
 		},
 		{
 			"character": "character-1668476950.json",
@@ -245,7 +263,7 @@
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "What's this? ![image](../project/button.png)"
+			"text": "What's this?"
 		},
 		{
 			"character": "character-1668476923.json",
@@ -266,24 +284,22 @@
 			"text": "..."
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shi seems stunned. "
+		},
+		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "lc_frown",
 			"text": "It... kind of looks like a picture of two people?"
 		},
 		{
-			"audio": "play",
-			"audio_bus": "Master",
-			"event_id": "dialogic_030",
-			"event_name": "AudioEvent",
-			"file": "",
-			"volume": 0
-		},
-		{
 			"character": "character-1668476950.json",
 			"event_id": "dialogic_001",
 			"portrait": "Characters-5",
-			"text": "We need to go right now."
+			"text": "We should go right now. Leave the photo right there."
 		},
 		{
 			"animation": "[No Animation]",
@@ -330,6 +346,12 @@
 			"z_index": 0
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shi shifts away."
+		},
+		{
 			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -337,9 +359,57 @@
 		},
 		{
 			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What should I do with the photograph?"
+		},
+		{
+			"choice": "Take the photo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You put the photograph in your pocket and start to run after Shi."
+			"text": "I decide to not listen to Shi and put the photograph in your pocket and start to run after Shi."
+		},
+		{
+			"definition": "1670633090-785",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"choice": "Leave the photograph there.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I decide to listen to Shi and leave the photograph there."
+		},
+		{
+			"definition": "1670633090-785",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "false"
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"animation": "slide_out_right.gd",
