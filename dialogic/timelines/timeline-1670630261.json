@@ -56,7 +56,7 @@
 			"text": "I groan in pain and look around the area."
 		},
 		{
-			"background": "res://project/backgrounds/Tunnel 3.png",
+			"background": "res://project/backgrounds/TunnelCenter.png",
 			"event_id": "dialogic_021",
 			"fade_duration": 1.5
 		},
