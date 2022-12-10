@@ -30,4 +30,3 @@ Some of the assets are created by:
 * Evil Pumpkin Company
 * Lornn
 * Tim Beek
-* 
