@@ -23,3 +23,11 @@ All I wanted was another second with them. I... just wanted to see them again."<
 * add shi (ghost) sprite
 * finish Chapter 1's story
 * add more music
+
+
+### Credits
+Some of the assets are created by:
+* Evil Pumpkin Company
+* Lornn
+* Tim Beek
+* 

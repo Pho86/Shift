@@ -62,21 +62,21 @@
 			"text": "Shi warned me this area is a sewer and that I need to always [b]stay on the right.[/b]"
 		},
 		{
-			"character": "",
+			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I should keep in mind of that."
+			"text": "I need to keep in mind of that."
 		},
 		{
-			"character": "",
+			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "lc_worry",
 			"text": "I wonder what Shi is doing now."
 		},
 		{
-			"character": "",
+			"character": "character-1668476923.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "lc_worry",
 			"text": "Is he worried about me?"
 		},
 		{
