@@ -394,7 +394,7 @@
 			"question": "What should I do with the photograph?"
 		},
 		{
-			"choice": "Take the photo.",
+			"choice": "Take the photograph.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -415,7 +415,7 @@
 			"set_value": "true"
 		},
 		{
-			"choice": "Leave the photograph there.",
+			"choice": "Leave the photograph.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",

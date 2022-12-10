@@ -26,7 +26,7 @@ All I wanted was another second with them. I... just wanted to see them again."<
 
 
 ### Credits
-Some of the assets are created by:
+Some of the assets in this projects were created by:
 * Evil Pumpkin Company
 * Lornn
 * Tim Beek
