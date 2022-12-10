@@ -321,9 +321,10 @@ margin_bottom = 803.0
 color = Color( 0, 0, 0, 1 )
 
 [node name="Shift" type="Sprite" parent="."]
-position = Vector2( 339.951, 133 )
-scale = Vector2( 0.492683, 0.492683 )
+position = Vector2( 266.573, 108 )
+scale = Vector2( 0.370732, 0.370732 )
 texture = ExtResource( 1 )
+offset = Vector2( -0.0994263, 0 )
 
 [node name="Act2" type="Sprite" parent="."]
 position = Vector2( 795, 651 )
